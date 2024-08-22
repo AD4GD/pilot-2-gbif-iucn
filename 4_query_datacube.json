@@ -1,0 +1,8 @@
+{
+  "sendNotification": true,
+  "notificationAddresses": [
+    "vitkryukov@gmail.com"
+  ],
+  "format": "SQL_TSV_ZIP",
+  "sql": "SELECT PRINTF('%04d-%02d', \"year\", \"month\") AS yearMonth, decimalLatitude AS lat, decimalLongitude AS lon, family, familyKey, genus, genusKey, species, speciesKey, iucnRedListCategory, basisOfRecord FROM occurrence WHERE iucnRedListCategory IN ('NT','VU','EN','CR','EW','EX','LC') AND occurrenceStatus = 'PRESENT' AND countryCode = 'ES' AND classKey = 359 AND hasCoordinate = TRUE AND (coordinateUncertaintyInMeters <= 1000 OR coordinateUncertaintyInMeters IS NULL) AND speciesKey IS NOT NULL AND NOT ARRAY_CONTAINS(issue, 'ZERO_COORDINATE') AND NOT ARRAY_CONTAINS(issue, 'COORDINATE_OUT_OF_RANGE') AND NOT ARRAY_CONTAINS(issue, 'COORDINATE_INVALID') AND NOT ARRAY_CONTAINS(issue, 'COUNTRY_COORDINATE_MISMATCH') AND \"month\" IS NOT NULL AND basisOfRecord IN ('HUMAN_OBSERVATION','MACHINE_OBSERVATION','MATERIAL_CITATION','OBSERVATION','OCCURRENCE') GROUP BY yearMonth, lat, lon, familyKey, family, genusKey, genus, speciesKey, species, iucnRedListCategory, basisOfRecord"
+}

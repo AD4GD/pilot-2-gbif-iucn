@@ -1,0 +1,977 @@
+﻿kingdom,id,scientificName,scientificName
+Anfibios,10909,Alytes cisternasii,"Alytes cisternasii Boscá, 1879"
+Anfibios,11158,Alytes dickhilleni ,"Alytes dickhilleni Arntzen & García-París, 1995"
+Anfibios,11790,Alytes muletensis,"Alytes muletensis (Sanchiz & Adrover, 1977)"
+Anfibios,11878,Alytes obstetricans,"Alytes obstetricans (Laurenti, 1768)"
+Anfibios,16220,Bufo balearicus (= Bufo viridis),"Bufotes balearicus (Boettger, 1870)"
+Anfibios,10762,Calotriton arnoldi,"Calotriton arnoldi Carranza & Amat, 2005"
+Anfibios,10769,Calotriton (Euproctus) asper,"Calotriton asper (Dugès, 1852)"
+Anfibios,11632,Chioglossa lusitanica,"Chioglossa lusitanica Bocage, 1864"
+Anfibios,11332,Discoglossus galganoi,"Discoglossus galganoi Capula, Nascetti, Lanza, Crespo & Bullini 1985"
+Anfibios,24211,Discoglossus jeanneae,"Discoglossus galganoi jeanneae Busack, 1986"
+Anfibios,11985,Discoglossus pictus,"Discoglossus pictus (Otth, 1837)"
+Anfibios,24327,Bufo calamita,"Epidalea calamita (Laurenti, 1768)"
+Anfibios,11717,Hyla meridionalis  ,"Hyla meridionalis Boettger, 1874"
+Anfibios,16222,Hyla arborea,"Hyla molleri (Bedriaga, 1889)"
+Anfibios,10729,Lissotriton boscai (antes Triturus boscai),"Lissotriton boscai (Lataste, 1879)"
+Anfibios,11431,Lissotriton helveticus (antes Triturus helveticus),"Lissotriton helveticus (Razoumowsky, 1789)"
+Anfibios,33080,Mesotriton alpestris (antes Triturus alpestris),"Ichthyosaura alpestris (Laurenti, 1768)"
+Anfibios,11108,Pelobates cultripes,"Pelobates cultripes (Cuvier, 1829)"
+Anfibios,11490,Pelodytes ibericus (antes P. punctatus),"Pelodytes ibericus Sánchez-Herráiz, Barbadillo, Machordom & Sanchiz, 2000"
+Anfibios,12037,Pelodytes punctatus,"Pelodytes punctatus (Daudin, 1802)"
+Anfibios,12420,Pleurodeles waltl,"Pleurodeles waltl Michahelles, 1830"
+Anfibios,11128,Rana dalmatina,"Rana dalmatina Bonaparte, 1840"
+Anfibios,11485,Rana iberica ,"Rana iberica Boulenger, 1879"
+Anfibios,12056,Rana pyrenaica,"Rana pyrenaica Serra-Cobo, 1993"
+Anfibios,12298,Rana temporaria,"Rana temporaria Linnaeus, 1758"
+Anfibios,10667,Salamandra algira  ,Salamandra algira Bedriaga 1883
+Anfibios,11677,Triturus marmoratus,"Triturus marmoratus (Latreille, 1800)"
+Anfibios,12051,Triturus pygmaeus ,"Triturus pygmaeus (Wolterstorff, 1905)"
+Aves,11351,Accipiter gentilis,"Accipiter gentilis (Linnaeus, 1758)"
+Aves,11849,Accipiter nisus,"Accipiter nisus (Linnaeus, 1758)"
+Aves,10766,Acrocephalus arundinaceus,"Acrocephalus arundinaceus (Linnaeus, 1758)"
+Aves,11706,Acrocephalus melanopogon,"Acrocephalus melanopogon (Temminck, 1823)"
+Aves,11932,Acrocephalus paludicola,"Acrocephalus paludicola (Vieillot, 1817)"
+Aves,12166,Acrocephalus schoenobaenus,"Acrocephalus schoenobaenus (Linnaeus, 1758)"
+Aves,12171,Acrocephalus scirpaceus,"Acrocephalus scirpaceus (Hermann, 1804)"
+Aves,11484,Actitis hypoleucos  ,"Actitis hypoleucos (Linnaeus, 1758)"
+Aves,10993,Aegithalos caudatus  ,"Aegithalos caudatus (Linnaeus, 1758)"
+Aves,11316,Aegolius funereus ,"Aegolius funereus (Linnaeus, 1758)"
+Aves,11768,Aegypius monachus,"Aegypius monachus (Linnaeus, 1766)"
+Aves,14089,Alca torda  ,"Alca torda Linnaeus, 1758"
+Aves,10794,Alcedo atthis,"Alcedo atthis (Linnaeus, 1758)"
+Aves,10835,Anthus berthelotii,"Anthus berthelotii Bolle, 1862"
+Aves,10944,Anthus campestris,"Anthus campestris (Linnaeus, 1758)"
+Aves,16377,Anthus cervinus,"Anthus cervinus (Pallas, 1811)"
+Aves,16379,Anthus petrosus,"Anthus petrosus (Montagu, 1798)"
+Aves,12019,Anthus pratensis,"Anthus pratensis (Linnaeus, 1758)"
+Aves,12231,Anthus spinoletta,"Anthus spinoletta (Linnaeus, 1758)"
+Aves,12336,Anthus trivialis,"Anthus trivialis (Linnaeus, 1758)"
+Aves,10743,Apus apus,"Apus apus (Linnaeus, 1758)"
+Aves,10935,Apus caffer,"Apus caffer (Lichtenstein, MHK, 1823)"
+Aves,11930,Apus pallidus,"Apus pallidus (Shelley, 1870)"
+Aves,12365,Apus unicolor,"Apus unicolor (Jardine, 1830)"
+Aves,11014,Aquila adalberti  ,"Aquila adalberti Brehm, CL, 1861"
+Aves,10888,Aquila chrysaetos,"Aquila chrysaetos (Linnaeus, 1758)"
+Aves,10896,Ardea cinerea,"Ardea cinerea Linnaeus, 1758"
+Aves,12041,Ardea purpurea,"Ardea purpurea Linnaeus, 1766"
+Aves,12081,Ardeola ralloides  ,"Ardeola ralloides (Scopoli, 1769)"
+Aves,11519,Arenaria interpres,"Arenaria interpres (Linnaeus, 1758)"
+Aves,11273,Asio flammeus,"Asio flammeus (Pontoppidan, 1763)"
+Aves,11921,Asio otus,"Asio otus (Linnaeus, 1758)"
+Aves,11861,Athene noctua,"Athene noctua (Scopoli, 1769)"
+Aves,16270,Aythya marila,"Aythya marila (Linnaeus, 1761)"
+Aves,11871,Aythya nyroca  ,"Aythya nyroca (Güldenstädt, 1770)"
+Aves,16275,Bonasa bonasia ,"Tetrastes bonasia (Linnaeus, 1758)"
+Aves,12243,Botaurus stellaris  ,"Botaurus stellaris (Linnaeus, 1758)"
+Aves,16260,Branta bernicla,"Branta bernicla (Linnaeus, 1758)"
+Aves,16259,Branta leucopsis,"Branta leucopsis (Bechstein, 1803)"
+Aves,10917,Bubo bubo,"Bubo bubo (Linnaeus, 1758)"
+Aves,11496,Bubulcus ibis,"Bubulcus ibis (Linnaeus, 1758)"
+Aves,11365,Bucanetes githagineus,"Bucanetes githagineus (Lichtenstein, MHK, 1823)"
+Aves,13992,Bucephala clangula,"Bucephala clangula (Linnaeus, 1758)"
+Aves,14010,Bulweria bulwerii,"Bulweria bulwerii (Jardine & Selby, 1828)"
+Aves,11889,Burhinus oedicnemus distinctus,"Burhinus oedicnemus distinctus (Bannerman, 1914)"
+Aves,11888,Burhinus oedicnemus oedicnemus/insularum,"Burhinus oedicnemus insularum (Sassi, 1908)"
+Aves,28443,Burhinus oedicnemus oedicnemus/insularum,"Burhinus oedicnemus oedicnemus (Linnaeus, 1758)"
+Aves,10922,Buteo buteo,"Buteo buteo (Linnaeus, 1758)"
+Aves,10734,Calandrella brachydactyla,"Calandrella brachydactyla (Leisler, 1814)"
+Aves,33007,Calandrella rufescens,"Alaudala rufescens (Vieillot, 1819)"
+Aves,10649,Calidris alba,"Calidris alba (Pallas, 1764)"
+Aves,10678,Calidris alpina,"Calidris alpina (Linnaeus, 1758)"
+Aves,10957,Calidris canutus,"Calidris canutus (Linnaeus, 1758)"
+Aves,11262,Calidris ferruginea,"Calidris ferruginea (Pontoppidan, 1763)"
+Aves,16339,Calidris maritima,"Calidris maritima (Brünnich, 1764)"
+Aves,11745,Calidris minuta,"Calidris minuta (Leisler, 1812)"
+Aves,32348,Calonectris borealis,"Calonectris borealis (Cory, 1881)"
+Aves,11166,Calonectris diomedea diomedea,"Calonectris diomedea Scopoli, 1769"
+Aves,16333,Calidris temminckii,"Calidris temminckii (Leisler, 1812)"
+Aves,11229,Caprimulgus europaeus,"Caprimulgus europaeus Linnaeus, 1758"
+Aves,12122,Caprimulgus ruficollis,"Caprimulgus ruficollis Temminck, 1820"
+Aves,33009,Carduelis spinus,"Spinus spinus (Linnaeus, 1758)"
+Aves,11327,Cercotrichas galactotes,"Cercotrichas galactotes (Temminck, 1820)"
+Aves,10733,Certhia brachydactyla,"Certhia brachydactyla Brehm, CL, 1820"
+Aves,11250,Certhia familiaris,"Certhia familiaris Linnaeus, 1758"
+Aves,11003,Cettia cetti,"Cettia cetti (Temminck, 1820)"
+Aves,10664,Charadrius alexandrinus,"Charadrius alexandrinus Linnaeus, 1758"
+Aves,10664,Charadrius alexandrinus,"Charadrius alexandrinus Linnaeus, 1758"
+Aves,11179,Charadrius dubius,"Charadrius dubius Scopoli, 1786"
+Aves,11442,Charadrius hiaticula,"Charadrius hiaticula Linnaeus, 1758"
+Aves,11787,Charadrius (Eudromias) morinellus ,"Charadrius morinellus Linnaeus, 1758"
+Aves,11182,Chersophilus duponti  ,"Chersophilus duponti (Vieillot, 1824)"
+Aves,12363,Chlamydotis undulata ,"Chlamydotis undulata (Jacquin, 1784)"
+Aves,14085,Chlidonias hybridus,"Chlidonias hybrida (Pallas, 1811)"
+Aves,14087,Chlidonias leucopterus,"Chlidonias leucopterus (Temminck, 1815)"
+Aves,14086,Chlidonias niger,"Chlidonias niger (Linnaeus, 1758)"
+Aves,16358,Larus genei,"Chroicocephalus genei (Brème, 1839)"
+Aves,10891,Ciconia ciconia,"Ciconia ciconia (Linnaeus, 1758)"
+Aves,11841,Ciconia nigra  ,"Ciconia nigra (Linnaeus, 1758)"
+Aves,10894,Cinclus cinclus,"Cinclus cinclus (Linnaeus, 1758)"
+Aves,11336,Circaetus gallicus,"Circaetus gallicus (Gmelin, JF, 1788)"
+Aves,11024,Circus aeruginosus,"Circus aeruginosus (Linnaeus, 1758)"
+Aves,11120,Circus cyaneus,"Circus cyaneus (Linnaeus, 1766)"
+Aves,12048,Circus pygargus  ,"Circus pygargus (Linnaeus, 1758)"
+Aves,11543,Cisticola juncidis,"Cisticola juncidis (Rafinesque, 1810)"
+Aves,11369,Clamator glandarius,"Clamator glandarius (Linnaeus, 1758)"
+Aves,11045,Coccothraustes coccothraustes,"Coccothraustes coccothraustes (Linnaeus, 1758)"
+Aves,10723,Columba bollii,"Columba bollii Godman, 1872"
+Aves,11544,Columba junoniae,"Columba junoniae Hartert, 1916"
+Aves,11339,Coracias garrulus,"Coracias garrulus Linnaeus, 1758"
+Aves,16310,Crex crex,"Crex crex (Linnaeus, 1758)"
+Aves,10952,Cuculus canorus,"Cuculus canorus Linnaeus, 1758"
+Aves,11113,Cursorius cursor,"Cursorius cursor (Latham, 1787)"
+Aves,11113,Cursorius cursor,"Cursorius cursor (Latham, 1787)"
+Aves,16423,Cyanistes caeruleus,"Cyanistes caeruleus (Linnaeus, 1758)"
+Aves,80935,Cyanopica cyanus,"Cyanopica cooki Bonaparte, 1850"
+Aves,12368,Delichon urbicum,"Delichon urbicum (Linnaeus, 1758)"
+Aves,11591,Dendrocopos leucotos,"Dendrocopos leucotos (Bechstein, 1802)"
+Aves,11649,Dendrocopos major,"Dendrocopos major (Linnaeus, 1758)"
+Aves,79181,Dendrocopos medius,"Dendrocoptes medius (Linnaeus, 1758)"
+Aves,33015,Dendrocopos minor,"Dryobates minor (Linnaeus, 1758)"
+Aves,11684,Dryocopus martius,"Dryocopus martius (Linnaeus, 1758)"
+Aves,23748,Egretta alba,"Ardea alba Linnaeus, 1758"
+Aves,11340,Egretta garzetta,"Egretta garzetta (Linnaeus, 1766)"
+Aves,10930,Elanus caeruleus,"Elanus caeruleus (Desfontaines, 1789)"
+Aves,10890,Emberiza cia,"Emberiza cia Linnaeus, 1766"
+Aves,10907,Emberiza cirlus,"Emberiza cirlus Linnaeus, 1766"
+Aves,10911,Emberiza citrinella,"Emberiza citrinella Linnaeus, 1758"
+Aves,11476,Emberiza hortulana,"Emberiza hortulana Linnaeus, 1758"
+Aves,12162,Emberiza schoeniclus schoeniclus,"Emberiza schoeniclus schoeniclus (Linnaeus, 1758)"
+Aves,12165,Emberiza schoeniclus whiterby/lusitanica,"Emberiza schoeniclus lusitanica Steinbacher, 1930 "
+Aves,12164,Emberiza schoeniclus whiterby/lusitanica,"Emberiza schoeniclus witherbyi von Jordans, 1923 "
+Aves,12111,Erithacus rubecula,"Erithacus rubecula (Linnaeus, 1758)"
+Aves,11059,Falco columbarius,"Falco columbarius Linnaeus, 1758"
+Aves,11198,Falco eleonorae,"Falco eleonorae Géné, 1839"
+Aves,11817,Falco naumanni,"Falco naumanni Fleischer, JG, 1818"
+Aves,11963,Falco peregrinus,"Falco peregrinus Tunstall, 1771"
+Aves,32346,Falco peregrinus pelegrinoides,"Falco peregrinus pelegrinoides Temminck, 1829"
+Aves,12262,Falco subbuteo,"Falco subbuteo Linnaeus, 1758"
+Aves,12321,Falco tinnunculus,"Falco tinnunculus Linnaeus, 1758"
+Aves,16303,Falco vespertinus,"Falco vespertinus Linnaeus, 1766"
+Aves,11483,Ficedula hypoleuca,"Ficedula hypoleuca (Pallas, 1764)"
+Aves,14092,Fratercula arctica,"Fratercula arctica (Linnaeus, 1758)"
+Aves,11047,Fringilla coelebs,"Fringilla coelebs Linnaeus, 1758"
+Aves,16433,Fringilla montifringilla ,"Fringilla montifringilla Linnaeus, 1758"
+Aves,33011,Fringilla teydea polatzeki,"Fringilla polatzeki Hartert, 1905"
+Aves,12315,Fringilla teydea teydea,"Fringilla teydea Webb, Berthelot & Moquin-Tandon, 1842"
+Aves,11101,Fulica cristata,"Fulica cristata Gmelin, JF, 1789"
+Aves,14006,Fulmarus glacialis,"Fulmarus glacialis (Linnaeus, 1761)"
+Aves,11102,Galerida cristata  ,"Galerida cristata (Linnaeus, 1758)"
+Aves,12316,Galerida theklae,"Galerida theklae Brehm, AE, 1857"
+Aves,13998,Gavia arctica,"Gavia arctica (Linnaeus, 1758)"
+Aves,14000,Gavia immer,"Gavia immer (Brünnich, 1764)"
+Aves,13997,Gavia stellata,"Gavia stellata (Pontoppidan, 1763)"
+Aves,14072,Gelochelidon nilotica ,"Gelochelidon nilotica (Gmelin, 1789)"
+Aves,16288,Geronticus eremita,"Geronticus eremita (Linnaeus, 1758)"
+Aves,12021,Glareola pratincola,"Glareola pratincola (Linnaeus, 1766)"
+Aves,16315,Grus grus,"Grus grus (Linnaeus, 1758)"
+Aves,10822,Gypaetus barbatus,"Gypaetus barbatus (Linnaeus, 1758)"
+Aves,11313,Gyps fulvus,"Gyps fulvus (Hablizl, 1783)"
+Aves,11917,Haematopus ostralegus,"Haematopus ostralegus Linnaeus, 1758"
+Aves,16302,Hieraaetus fasciatus  ,"Aquila fasciata Vieillot, 1822"
+Aves,11959,Hieraaetus pennatus,"Hieraaetus pennatus (Gmelin, JF, 1788)"
+Aves,11446,Himantopus himantopus,"Himantopus himantopus (Linnaeus, 1758)"
+Aves,16402,Hippolais icterina,"Hippolais icterina (Vieillot, 1817)"
+Aves,33081,Hippolais pallida,"Iduna pallida (Hemprich & Ehrenberg, 1833)"
+Aves,12009,Hippolais polyglotta,"Hippolais polyglotta (Vieillot, 1817)"
+Aves,11132,Hirundo daurica,"Cecropis daurica (Laxmann, 1769)"
+Aves,12134,Hirundo rustica,"Hirundo rustica Linnaeus, 1758"
+Aves,14023,Hydrobates pelagicus,"Hydrobates pelagicus (Linnaeus, 1758)"
+Aves,11750,Ixobrychus minutus,"Ixobrychus minutus (Linnaeus, 1766)"
+Aves,12326,Jynx torquilla,"Jynx torquilla Linnaeus, 1758"
+Aves,11800,Lagopus muta,"Lagopus muta (Montin, 1781)"
+Aves,11055,Lanius collurio,"Lanius collurio Linnaeus, 1758"
+Aves,16426,Lanius meridionalis ,"Lanius meridionalis Temminck, 1820"
+Aves,11741,Lanius minor,"Lanius minor Gmelin, JF, 1788"
+Aves,12190,Lanius senator,"Lanius senator Linnaeus, 1758"
+Aves,14053,Larus audouinii,"Larus audouinii Payraudeau, 1826"
+Aves,14056,Larus canus,"Larus canus Linnaeus, 1758"
+Aves,14066,Larus marinus,"Larus marinus Linnaeus, 1758"
+Aves,14050,Larus melanocephalus,"Larus melanocephalus Temminck, 1820"
+Aves,14071,Larus minutus,"Hydrocoloeus minutus (Pallas, 1776)"
+Aves,11564,Limosa lapponica,"Limosa lapponica (Linnaeus, 1758)"
+Aves,11600,Limosa limosa,"Limosa limosa (Linnaeus, 1758)"
+Aves,11630,Locustella luscinioides,"Locustella luscinioides (Savi, 1824)"
+Aves,11807,Locustella naevia,"Locustella naevia (Boddaert, 1783)"
+Aves,16421,Lophophanes cristatus,"Lophophanes cristatus (Linnaeus, 1758)"
+Aves,11116,Loxia curvirostra,"Loxia curvirostra Linnaeus, 1758"
+Aves,10750,Lullula arborea,"Lullula arborea (Linnaeus, 1758)"
+Aves,11701,Luscinia megarhynchos,"Luscinia megarhynchos Brehm, CL, 1831"
+Aves,12282,Luscinia svecica,"Luscinia svecica (Linnaeus, 1758)"
+Aves,10699,Marmaronetta angustirostris,"Marmaronetta angustirostris (Ménétries, 1832)"
+Aves,10937,Melanocorypha calandra,"Melanocorypha calandra (Linnaeus, 1766)"
+Aves,10738,Merops apiaster,"Merops apiaster Linnaeus, 1758"
+Aves,11735,Milvus migrans,"Milvus migrans (Boddaert, 1783)"
+Aves,11737,Milvus milvus ,"Milvus milvus (Linnaeus, 1758)"
+Aves,12155,Monticola saxatilis,"Monticola saxatilis (Linnaeus, 1766)"
+Aves,12226,Monticola solitarius,"Monticola solitarius (Linnaeus, 1758)"
+Aves,11858,Montifringilla nivalis,"Montifringilla nivalis (Linnaeus, 1766)"
+Aves,14031,Morus bassanus,"Morus bassanus (Linnaeus, 1758)"
+Aves,10648,Motacilla alba,"Motacilla alba Linnaeus, 1758"
+Aves,10898,Motacilla cinerea,"Motacilla cinerea Tunstall, 1771"
+Aves,11274,Motacilla flava,"Motacilla flava Linnaeus, 1758"
+Aves,12250,Muscicapa striata,"Muscicapa striata (Pallas, 1764)"
+Aves,11961,Neophron percnopterus  ,"Neophron percnopterus (Linnaeus, 1758)"
+Aves,23776,Neophron percnopterus majorensis,"Neophron percnopterus majorensis Donázar, Negro, Palacios, Gangoso, Godoy, Ceballos, Hiraldo & Capote, 2002"
+Aves,10763,Numenius arquata,"Numenius arquata (Linnaeus, 1758)"
+Aves,10763,Numenius arquata,"Numenius arquata (Linnaeus, 1758)"
+Aves,11974,Numenius phaeopus  ,"Numenius phaeopus (Linnaeus, 1758)"
+Aves,16347,Numenius tenuirostris ,"Numenius tenuirostris Vieillot, 1817"
+Aves,11870,Nycticorax nycticorax,"Nycticorax nycticorax (Linnaeus, 1758)"
+Aves,33016,Oceanodroma castro,"Hydrobates castro (Harcourt, 1851)"
+Aves,33149,Oceanodroma leucorhoa,"Hydrobates leucorhous (Vieillot, 1818) "
+Aves,11453,Oenanthe hispanica,"Oenanthe hispanica (Linnaeus, 1758)"
+Aves,11592,Oenanthe leucura,"Oenanthe leucura (Gmelin, JF, 1789)"
+Aves,11890,Oenanthe oenanthe,"Oenanthe oenanthe (Linnaeus, 1758)"
+Aves,11911,Oriolus oriolus,"Oriolus oriolus (Linnaeus, 1758)"
+Aves,12292,Otis tarda,"Otis tarda Linnaeus, 1758"
+Aves,12175,Otus scops,"Otus scops (Linnaeus, 1758)"
+Aves,11589,Oxyura leucocephala,"Oxyura leucocephala (Scopoli, 1769)"
+Aves,11421,Pandion haliaetus,"Pandion haliaetus (Linnaeus, 1758)"
+Aves,10839,Panurus biarmicus,"Panurus biarmicus (Linnaeus, 1758)"
+Aves,11650,Parus major,"Parus major Linnaeus, 1758"
+Aves,14021,Pelagodroma marina,"Pelagodroma marina (Latham, 1790)"
+Aves,24333,Perdix perdix hispaniensis,"Perdix perdix hispaniensis Reichenow, 1892"
+Aves,16422,Periparus ater ,"Periparus ater (Linnaeus, 1758)"
+Aves,10739,Pernis apivorus,"Pernis apivorus (Linnaeus, 1758)"
+Aves,11973,Petronia petronia,"Petronia petronia (Linnaeus, 1766)"
+Aves,79207,Phaethon aethereus mesonauta,"Phaethon aethereus mesonauta Peters, J.L.,1930"
+Aves,80933,Phalacrocorax aristotelis  ,"Gulosus aristotelis (Linnaeus, 1761)"
+Aves,14040,Phalaropus fulicarius,"Phalaropus fulicarius (Linnaeus, 1758)"
+Aves,14039,Phalaropus lobatus,"Phalaropus lobatus (Linnaeus, 1758)"
+Aves,33046,Philomachus pugnax,"Calidris pugnax (Linnaeus, 1758)"
+Aves,12107,Phoenicopterus (ruber) roseus,"Phoenicopterus roseus Pallas, 1811"
+Aves,11886,Phoenicurus ochruros,"Phoenicurus ochruros (Gmelin, SG, 1774)"
+Aves,11977,Phoenicurus phoenicurus  ,"Phoenicurus phoenicurus (Linnaeus, 1758)"
+Aves,10724,Phylloscopus bonelli,"Phylloscopus bonelli (Vieillot, 1819)"
+Aves,10949,Phylloscopus canariensis,"Phylloscopus canariensis (Hartwig, 1886)"
+Aves,11056,Phylloscopus collybita,"Phylloscopus collybita (Vieillot, 1817)"
+Aves,11489,Phylloscopus ibericus,"Phylloscopus ibericus Ticehurst, 1937"
+Aves,12206,Phylloscopus sibilatrix,"Phylloscopus sibilatrix (Bechstein, 1793)"
+Aves,12337,Phylloscopus trochilus,"Phylloscopus trochilus (Linnaeus, 1758)"
+Aves,33014,Picus viridis,"Picus sharpei (Saunders, H, 1872)"
+Aves,11590,Platalea leucorodia,"Platalea leucorodia Linnaeus, 1758"
+Aves,16443,Plectrophenax nivalis,"Plectrophenax nivalis (Linnaeus, 1758)"
+Aves,11247,Plegadis falcinellus,"Plegadis falcinellus (Linnaeus, 1766)"
+Aves,10741,Pluvialis apricaria,"Pluvialis apricaria (Linnaeus, 1758)"
+Aves,12240,Pluvialis squatarola   ,"Pluvialis squatarola (Linnaeus, 1758)"
+Aves,14003,Podiceps auritus,"Podiceps auritus (Linnaeus, 1758)"
+Aves,14001,Podiceps cristatus,"Podiceps cristatus (Linnaeus, 1758)"
+Aves,14004,Podiceps nigricollis,"Podiceps nigricollis Brehm, 1831"
+Aves,16420,Poecile palustris,"Poecile palustris (Linnaeus, 1758)"
+Aves,12013,Porphyrio porphyrio,"Porphyrio porphyrio (Linnaeus, 1758)"
+Aves,33069,Porzana parva,"Zapornia parva (Scopoli, 1769)"
+Aves,12014,Porzana porzana,"Porzana porzana (Linnaeus, 1766)"
+Aves,33067,Porzana pusilla,"Zapornia pusilla (Pallas, 1776)"
+Aves,11054,Prunella collaris,"Prunella collaris (Scopoli, 1769)"
+Aves,11761,Prunella modularis,"Prunella modularis (Linnaeus, 1758)"
+Aves,10662,Pterocles alchata,"Pterocles alchata (Linnaeus, 1766)"
+Aves,11909,Pterocles orientalis,"Pterocles orientalis (Linnaeus, 1758)"
+Aves,12131,Ptyonoprogne rupestris,"Ptyonoprogne rupestris (Scopoli, 1769)"
+Aves,14019,Puffinus assimilis ,"Puffinus baroli (Bonaparte, 1857)"
+Aves,11691,Puffinus mauretanicus,"Puffinus mauretanicus Lowe, 1921"
+Aves,33031,Puffinus gravis,"Ardenna gravis (O'Reilly, 1818)"
+Aves,33032,Puffinus griseus,"Ardenna grisea (Gmelin, JF, 1789)"
+Aves,12029,Puffinus puffinus,"Puffinus puffinus (Brünnich, 1764)"
+Aves,12433,Puffinus yelkouan,"Puffinus yelkouan (Acerbi, 1827)"
+Aves,11384,Pyrrhocorax graculus,"Pyrrhocorax graculus (Linnaeus, 1766)"
+Aves,12065,Pyrrhocorax pyrrhocorax,"Pyrrhocorax pyrrhocorax (Linnaeus, 1758)"
+Aves,12067,Pyrrhula pyrrhula  ,"Pyrrhula pyrrhula (Linnaeus, 1758)"
+Aves,10801,Recurvirostra avosetta,"Recurvirostra avosetta Linnaeus, 1758"
+Aves,11499,Regulus ignicapillus,"Regulus ignicapilla (Temminck, 1820)"
+Aves,12088,Regulus regulus,"Regulus regulus (Linnaeus, 1758)"
+Aves,11957,Remiz pendulinus  ,"Remiz pendulinus (Linnaeus, 1758)"
+Aves,12097,Riparia riparia,"Riparia riparia (Linnaeus, 1758)"
+Aves,14069,Rissa tridactyla,"Rissa tridactyla (Linnaeus, 1758)"
+Aves,11125,Saxicola dacotiae,"Saxicola dacotiae (Meade-Waldo, 1889)"
+Aves,12112,Saxicola rubetra,"Saxicola rubetra (Linnaeus, 1758)"
+Aves,16387,Saxicola torquata,"Saxicola rubicola (Linnaeus, 1766)"
+Aves,16435,Serinus citrinella,"Carduelis citrinella (Pallas, 1764)"
+Aves,11226,Sitta europaea,"Sitta europaea Linnaeus, 1758"
+Aves,14042,Stercorarius parasiticus  ,"Stercorarius parasiticus (Linnaeus, 1758)"
+Aves,14041,Stercorarius pomarinus  ,"Stercorarius pomarinus (Temminck, 1815)"
+Aves,14044,Stercorarius skua  ,"Stercorarius skua (Brünnich, 1764)"
+Aves,10831,Sterna bengalensis,"Thalasseus bengalensis (Lesson, 1831)"
+Aves,14073,Sterna caspia,"Hydroprogne caspia (Pallas, 1770)"
+Aves,14078,Sterna dougallii,"Sterna dougallii Montagu, 1813"
+Aves,14079,Sterna hirundo,"Sterna hirundo Linnaeus, 1758"
+Aves,11938,Sterna paradisaea,"Sterna paradisaea Pontoppidan, 1763"
+Aves,14084,Sterna albifrons,"Sternula albifrons (Pallas, 1764)"
+Aves,10698,Strix aluco,"Strix aluco Linnaeus, 1758"
+Aves,10791,Sylvia atricapilla,"Sylvia atricapilla (Linnaeus, 1758)"
+Aves,80946,Sylvia balearica (= S. sarda),"Curruca balearica (Jordans, 1913)"
+Aves,10728,Sylvia borin,"Sylvia borin (Boddaert, 1783)"
+Aves,80920,Sylvia cantillans,"Curruca cantillans (Pallas, 1764)"
+Aves,80921,Sylvia communis,"Curruca communis (Latham, 1787)"
+Aves,80923,Sylvia conspicillata,"Curruca conspicillata (Temminck, 1820)"
+Aves,80925,Sylvia curruca,"Curruca curruca (Linnaeus, 1758)"
+Aves,80927,Sylvia hortensis,"Curruca hortensis (Gmelin, 1789)"
+Aves,80929,Sylvia melanocephala,"Curruca melanocephala (Gmelin, JF, 1789)"
+Aves,80931,Sylvia undata,"Curruca undata (Boddaert, 1783)"
+Aves,12121,Tachybaptus ruficollis,"Tachybaptus ruficollis (Pallas, 1764)"
+Aves,24459,Apus melba ,"Tachymarptis melba (Linnaeus, 1758)"
+Aves,11261,Tadorna ferruginea,"Tadorna ferruginea (Pallas, 1764)"
+Aves,12286,Tadorna tadorna,"Tadorna tadorna (Linnaeus, 1758)"
+Aves,12372,Tetrao urogallus aquitanicus,"Tetrao urogallus Linnaeus, 1758"
+Aves,12372,Tetrao urogallus cantabricus,"Tetrao urogallus Linnaeus, 1758"
+Aves,12312,Tetrax tetrax,"Tetrax tetrax (Linnaeus, 1758)"
+Aves,12147,Sterna (Thalasseus) sandvicensis,"Thalasseus sandvicensis (Latham, 1787)"
+Aves,11796,Tichodroma muraria  ,"Tichodroma muraria (Linnaeus, 1766)"
+Aves,11219,Tringa erythropus   ,"Tringa erythropus (Pallas, 1764)"
+Aves,11370,Tringa glareola,"Tringa glareola Linnaeus, 1758"
+Aves,11825,Tringa nebularia  ,"Tringa nebularia (Gunnerus, 1767)"
+Aves,11885,Tringa ochropus,"Tringa ochropus Linnaeus, 1758"
+Aves,12241,Tringa stagnatilis,"Tringa stagnatilis (Bechstein, 1803)"
+Aves,12329,Tringa totanus,"Tringa totanus (Linnaeus, 1758)"
+Aves,12340,Troglodytes troglodytes,"Troglodytes troglodytes (Linnaeus, 1758)"
+Aves,12324,Turdus torquatus,"Turdus torquatus Linnaeus, 1758"
+Aves,12284,Turnix sylvatica,"Turnix sylvaticus (Desfontaines, 1789)"
+Aves,36632,Tyto alba alba,"Tyto alba alba (Scopoli, 1769)"
+Aves,23788,Tyto alba gracilirostris,"Tyto alba gracilirostris (Hartert, E, 1905)"
+Aves,11211,Upupa epops,"Upupa epops Linnaeus, 1758"
+Aves,14088,Uria aalge,"Uria aalge (Pontoppidan, 1763)"
+Aves,14088,Uria aalge,"Uria aalge (Pontoppidan, 1763)"
+Flora,79298,Isoplexis chalcantha,"Digitalis chalcantha (Svent. & O'Shan.) Albach, Bräuchler & Heubl "
+Flora,79299,Isoplexis isabelliana,Digitalis isabelliana (Webb) Linding
+Flora,24248,Jasione lusitanica,Jasione lusitanica A.DC.
+Flora,12,Adenocarpus ombriosus,Adenocarpus ombriosus Ceballos & Ortuño
+Flora,831,Aeonium balsamiferum,Aeonium balsamiferum Webb & Berthel.
+Flora,832,Aeonium gomerense,Aeonium gomerense (Praeger) Praeger
+Flora,1163,Aeonium saundersii,Aeonium saundersii Bolle
+Flora,1719,Allium grosii,Allium grosii Font Quer
+Flora,24299,Alyssum fastigiatum,Alyssum fastigiatum Heywood
+Flora,11,Anagyris latifolia,Anagyris latifolia Brouss. ex Willd.
+Flora,2137,Androcymbium europaeum,Androcymbium europaeum (Lange) K.Richt.
+Flora,2138,Androcymbium hierrense,Androcymbium hierrense A.Santos
+Flora,2139,Androcymbium psammophilum,Androcymbium psammophilum Svent.
+Flora,2144,Androsace cylindrica,Androsace cylindrica DC. in Lam. & DC.
+Flora,2155,Androsace pyrenaica,Androsace pyrenaica Lam.
+Flora,2156,Androsace rioxana,Androsace rioxana A. Segura
+Flora,2051,Anthyllis hystrix,"Anthyllis hystrix (Willk. ex Barceló) Cardona, Contandr. & Sierra"
+Flora,2067,Antirrhinum charidemi,Antirrhinum charidemi Lange
+Flora,2205,Anthirrhinum lopesianum,Antirrhinum lopesianum Rothm.
+Flora,2230,Apium bermejoi,Apium bermejoi L.Llorens
+Flora,2235,Apium repens,Apium repens (Jacq.) Lag.
+Flora,24221,Aquilegia paui ,Aquilegia paui Font Quer
+Flora,2243,Aquilegia pyrenaica subsp. cazorlensis ,Aquilegia pyrenaica subsp. cazorlensis (Heywood) Galiano & Rivas Mart.
+Flora,2296,Arenaria alfacarensis,Arenaria alfacarensis Pamp.
+Flora,2337,Arenaria nevadensis,Arenaria nevadensis Boiss. & Reut. in Boiss.
+Flora,846,Argyranthemum lidii,Argyranthemum lidii Humphries
+Flora,847,Argyranthemum sundingii,Argyranthemum sundingii L.Borgen
+Flora,850,Argyranthemum winteri,Argyranthemum winteri (Svent.) Humphries
+Flora,2460,Armeria euscadiensis,Armeria euscadiensis Donad. & Vivant
+Flora,2499,Armeria velutina,Armeria velutina Welw. ex Boiss. & Reut.
+Flora,9918,Artemisia granatensis,Artemisia granatensis Boiss.
+Flora,848,Asparagus fallax,Asparagus fallax Svent.
+Flora,33036,Asparagus macrorrhizus,"Asparagus macrorrhizus Pedrol, Regalado et López-Encina"
+Flora,2541,Asplenium hemionitis,Asplenium hemionitis L.
+Flora,852,Aster pyrenaeus,Aster pyrenaeus Desf. ex DC.
+Flora,2602,Astragalus nitidiflorus,Astragalus nitidiflorus Jiménez Mun. & Pau
+Flora,2612,Astragalus tremolsianus,Astragalus tremolsianus Pau
+Flora,855,Atractylis arbuscula,Atractylis arbuscula Svent. & Michaelis
+Flora,856,Atractylis preauxiana,Atractylis preauxiana Sch.Bip.
+Flora,2723,Atropa baetica,Atropa baetica Willk.
+Flora,1518,Avellara fistulosa,Avellara fistulosa (Brot.) Blanca & C.Díaz
+Flora,860,Bencomia brachystachya,Bencomia brachystachya Svent. ex Nordborg
+Flora,861,Bencomia exstipulata,Bencomia exstipulata Svent.
+Flora,862,Bencomia sphaerocarpa,Bencomia sphaerocarpa Svent.
+Flora,32074,Boleum asperum,Vella aspera Pers.
+Flora,2698,Borderea chouardii,Borderea chouardii (Gaussen) Heslot
+Flora,2705,Botrychium matricariifolium,Botrychium matricariifolium A.Braun ex W.D.J.Koch
+Flora,23812,Bruchia vogesiaca,Bruchia vogesiaca Schwägr.
+Flora,1055,Bupleurum handiense,Bupleurum handiense (Bolle) G.Kunkel
+Flora,23853,Buxbaumia viridis,Buxbaumia viridis (Moug. ex Lam. & DC.) Brid. ex Moug. & Nestl.
+Flora,1208,Caralluma burchardii,Caralluma burchardii N.E.Br.
+Flora,2899,Carduncellus dianius,Carduncellus dianius Webb
+Flora,2916,Carduus myriacanthus,Carduus myriacanthus Salzm. ex DC.
+Flora,12470,Caulerpa ollivieri,Caulerpa ollivieri Dostál
+Flora,3218,Centaurea avilae,Centaurea avilae Pau
+Flora,3235,Centaurea borjae,Centaurea borjae Valdés Berm. & Rivas Goday
+Flora,3243,Centaurea citricolor,Centaurea citricolor Font Quer
+Flora,3263,Centaurea gadorensis,Centaurea gadorensis Blanca
+Flora,3319,Centaurea boissieri subsp. spachii ,Centaurea pinnata Pau ex Vicioso
+Flora,3326,Centaurea pulvinata,Centaurea pulvinata (Blanca) Blanca
+Flora,3360,Centaurium rigualii,Centaurium quadrifolium subsp. barrelieri (Dufour) G.López
+Flora,3364,Centaurium somedanum,Centaurium somedanum M.Laínz
+Flora,3427,Cerinthe glabra,Cerinthe glabra Mill.
+Flora,866,Ceropegia chrysantha,Ceropegia dichotoma subsp. krainzii (Svent.) Bruyns
+Flora,866,Ceropegia dichotoma subsp. krainzii ,Ceropegia dichotoma subsp. krainzii (Svent.) Bruyns
+Flora,875,Cheirolophus duranii,Cheirolophus duranii (Burchard) Holub
+Flora,876,Cheirolophus falcisectus,Cheirolophus falcisectus Montelongo & Moraleda
+Flora,1237,Cheirolophus ghomerytus,Cheirolophus ghomerytus (Svent.) Holub
+Flora,877,Cheirolophus junonianus,Cheirolophus junonianus (Svent.) Holub
+Flora,878,Cheirolophus metlesicsii,Cheirolophus metlesicsii Montelongo
+Flora,868,Cheirolophus santos-abreui,Cheirolophus santos-abreui A.Santos
+Flora,1229,Cheirolophus satarataensis,Cheirolophus satarataensis (Svent.) Holub
+Flora,157,Cheirolophus sventenii subsp. gracilis,Cheirolophus sventenii subsp. gracilis A.Santos
+Flora,871,Cheirolophus tagananensis,Cheirolophus tagananensis (Svent.) Holub
+Flora,3556,Christella dentata,Christella dentata (Forssk.) Brownsey & Jermy
+Flora,1239,Cicer canariensis,Cicer canariense A.Santos & G.P.Lewis
+Flora,1240,Cistus chinamadensis,Cistus chinamadensis A.Bañares & P.Romero
+Flora,3616,Cistus heterophyllus (= C.h.carthaginensis),Cistus heterophyllus subsp. carthaginensis (Pau) M.B.Crespo & Mateo
+Flora,1716,Coincya rupestris subsp. rupestris,Coincya rupestris Porta & Rigo ex Rouy subsp. rupestris
+Flora,880,Convolvulus caput-medusae,Convolvulus caput-medusae Lowe
+Flora,881,Convolvulus lopezsocasi   ,Convolvulus lopezsocasi Svent.
+Flora,882,Convolvulus subauriculatus,Convolvulus subauriculatus (Burchard) Linding.
+Flora,3741,Coronopus navasii,Coronopus navasii Pau
+Flora,1061,Crambe arborea,Crambe arborea Webb ex Christ
+Flora,886,Crambe laevigata,Crambe laevigata DC. ex Christ
+Flora,887,Crambe scoparia,Crambe scoparia Svent.
+Flora,888,Crambe sventenii,Crambe sventenii Pett. ex Bramwell & Sunding
+Flora,208,Crepis granatensis,Crepis granatensis (Willk.) Blanca & Cueto
+Flora,189,Crepis pusilla,Crepis pusilla (Sommier) Merxm.
+Flora,3876,Culcita macrocarpa,Culcita macrocarpa C.Presl
+Flora,3911,Cymodocea nodosa ,Cymodocea nodosa (Ucria) Asch.
+Flora,3911,Cymodocea nodosa ,Cymodocea nodosa (Ucria) Asch.
+Flora,3795,Cypripedium calceolus,Cypripedium calceolus L.
+Flora,208082,(2) Cystoseira sp.,"Cystoseira C.Agardh,1820"
+Flora,79301,Cystoseira abies-marina,Gongolaria abies-marina (S.G.Gmelin) Kuntze 1891
+Flora,3962,Daphne alpina,Daphne alpina L.
+Flora,3969,Daphne rodriguezii,Daphne rodriguezii Texidor
+Flora,3995,Delphinium bolosii,Delphinium bolosii C.Blanché & Molero
+Flora,4031,Delphinium montanum,Delphinium montanum DC. in Lam. & DC.
+Flora,1258,Dendriopoterium pulidoi,Dendriopoterium pulidoi Svent. ex Bramwell
+Flora,4094,Dianthus rupicola,Dianthus rupicola Biv.
+Flora,4110,Diplazium caudatum,Diplazium caudatum (Cav.) Jermy
+Flora,4110,Diplazium caudatum,Diplazium caudatum (Cav.) Jermy
+Flora,4118,Diplotaxis ibicensis,Diplotaxis ibicensis (Pau) Gómez-Campo
+Flora,4122,Diplotaxis siettiana,Diplotaxis siettiana Maire
+Flora,896,Dorycnium spectabile,Dorycnium spectabile (Choisy ex Ser. in DC.) Webb & Berthel.
+Flora,897,Dracaena draco,Dracaena draco L.
+Flora,898,Dracaena tamaranae,"Dracaena tamaranae Marrero Rodr., Almeida-Pérez & González-Martín"
+Flora,4157,Dracocephalum austriacum,Dracocephalum austriacum L.
+Flora,4179,Dryopteris corleyi,Dryopteris corleyi Fraser-Jenk.
+Flora,12232,Echinodium spinosum,Echinodium spinosum (Mitt.) Jur.
+Flora,1278,Echium gentianoides,Echium gentianoides Webb ex Coincy
+Flora,902,Echium handiense,Echium handiense Svent.
+Flora,4245,Echium pininana,Echium pininana Webb & Berthel.
+Flora,245,Erigeron frigidus,Erigeron frigidus Boiss. ex DC.
+Flora,9989,Erodium astragaloides ,Erodium astragaloides Boiss. & Reut.
+Flora,9837,Erodium foetidum,Erodium foetidum (L.) L´Her.
+Flora,1,Erodium paularense,Erodium paularense Fern. Gonz. & Izco
+Flora,10007,Erodium rupicola,Erodium rupicola Boiss.
+Flora,4412,Eryngium viviparum,Eryngium viviparum J.Gay
+Flora,907,Euphorbia bourgeauana,Euphorbia bourgeana J. Gay ex Boiss. in DC.
+Flora,909,Euphorbia handiensis,Euphorbia handiensis Burchard
+Flora,907,Euphorbia lambii,Euphorbia bourgeana J. Gay ex Boiss. in DC.
+Flora,4504,Euphorbia margalidiana,Euphorbia margalidiana Kuhbier & Lewej.
+Flora,910,Euphorbia mellifera,Euphorbia mellifera Aiton
+Flora,4509,Euphorbia nevadensis subsp. nevadensis,Euphorbia nevadensis Boiss. & Reut. subsp. nevadensis
+Flora,4539,Euphorbia transtagana,Euphorbia transtagana Boiss.
+Flora,2896,Femeniasia balearica,Carduncellus balearicus (J.J.Rodr.) G.López
+Flora,1308,Ferula latipinna,Ferula latipinna A.Santos
+Flora,282,Festuca brigantina,Festuca brigantina (Markgr. -Dann.) Markgr.-Dann.
+Flora,10029,Festuca elegans,Festuca elegans Boiss.
+Flora,32695,Festuca summilusitana,Festuca gredensis Fuente & Ortúñez
+Flora,24238,Festuca summilusitana,Festuca summilusitana Franco & Rocha Afonso
+Flora,4796,Galium viridiflorum,Galium viridiflorum Boiss. & Reut.
+Flora,9873,Gaudinia hispanica,Gaudinia hispanica Stace & Tutin
+Flora,13719,Gelidium arbusculum,Gelidium arbusculum Bory de Saint-Vincent ex Børgesen
+Flora,13721,Gelidium canariense,"Gelidium canariense (Grunow) Seoane-Camba ex Haroun, Gil-Rodríguez, Díaz de Castro et Prud´homme van Reine"
+Flora,913,Genista benehoavensis,Genista benehoavensis (Bolle ex Svent.) del Arco
+Flora,4884,Genista dorycnifolia,Genista dorycnifolia Font Quer
+Flora,4937,Gentiana angustifolia subsp. angustifolia,Gentiana angustifolia Vill. subsp. angustifolia
+Flora,4987,Glandora oleifolia (=Lithodora oleifolia),Glandora oleifolia (Lapeyr.) D.C.Thomas
+Flora,912,Globularia ascanii,Globularia ascanii Bramwell & G.Kunkel
+Flora,916,Globularia sarcophylla,Globularia sarcophylla Svent.
+Flora,13796,Gymnogongrus crenulatus,Gymnogongrus crenulatus (Turner) J. Agardh
+Flora,12389,Hamatocaulis vernicosus,Hamatocaulis vernicosus (Mitt.) Hedenäs
+Flora,4959,Helianthemum alypoides,Helianthemum alypoides Losa & Rivas Goday
+Flora,914,Helianthemum bramwelliorum,Helianthemum bramwelliorum Marrero Rodr.
+Flora,915,Helianthemum bystropogophyllum   ,Helianthemum bystropogophyllum Svent.
+Flora,4970,Helianthemum caput-felis,Helianthemum caput-felis Boiss.
+Flora,917,Helianthemum gonzalezferreri   ,Helianthemum gonzalezferreri Marrero Rodr.
+Flora,918,Helianthemum inaguae,"Helianthemum inaguae Marrero Rodr., González-Martín & González-Artiles"
+Flora,919,Helianthemum juliae,Helianthemum juliae Wildpret
+Flora,920,Helianthemum teneriffae   ,Helianthemum teneriffae Coss.
+Flora,922,Helichrysum alucense,"Helichrysum alucense García-Casanova, S.Scholz & Hernández"
+Flora,1331,Helichrysum gossypinum,Helichrysum gossypinum Webb
+Flora,923,Helichrysum monogynum,Helichrysum monogynum Burtt & Sunding
+Flora,375,Hieracium queraltense,Hieracium queraltense de Retz
+Flora,5264,Hieracium recoderi,Hieracium recoderi de Retz
+Flora,376,Hieracium texedense,Hieracium texedense Pau
+Flora,377,Hieracium vinyasianum,Hieracium vinyasianum Font Quer
+Flora,378,Himantoglossum metlesicsianum,Himantoglossum metlesicsianum (W.P.Teschner) P.Delforge
+Flora,372,Holcus setiglumis subsp. duriensis,Holcus setiglumis subsp. duriensis P.Silva
+Flora,5144,Hydrocharis morsus-ranae,Hydrocharis morsus-ranae L.
+Flora,5130,Hymenophyllum wilsonii,Hymenophyllum wilsonii Hook.
+Flora,358,Hymenostemma pseudoanthemis,Hymenostemma pseudanthemis (Kunze) Willk.
+Flora,925,Hypochoeris oligocephala,Hypochaeris oligocephala (Svent. & Bramwell) Lack
+Flora,926,Ilex perado subsp. lopezlilloi,Ilex perado subsp. lopezlilloi (G.Kunkel) A.Hansen & Sunding
+Flora,9463,Iris boissieri,Xiphion boissieri (Henriq.) Rodion.
+Flora,24247,Isoetes boryana,Isoetes velatum subsp. asturicense (M.Laínz) Rivas Mart. & Prada
+Flora,5455,Jonopsidium savianum,Jonopsidium savianum (Caruel) Ball ex Arcang.
+Flora,78634,Jungermannia handelii,Solenostoma handelii (Schiffn.) Müll.Frib.
+Flora,1019,Juniperus cedrus,Juniperus cedrus Webb & Berthel.
+Flora,5517,Jurinea fontqueri,Jurinea fontqueri Cuatrec.
+Flora,13789,Kallymenia spathulata,Kallymenia spathulata (J. Agardh) Codomier ex Parkinson
+Flora,5417,Kosteletzkya pentacarpos,Kosteletzkya pentacarpa (L.) Ledeb.
+Flora,927,Kunkeliella canariensis   ,Kunkeliella canariensis Stearn
+Flora,1014,Kunkeliella psilotoclada,Kunkeliella psilotoclada (Svent.) Stearn
+Flora,929,Kunkeliella subsucculenta ,Kunkeliella subsucculenta Kämmer
+Flora,13132,Laminaria rodriguezii,Laminaria rodriguezii Bornet
+Flora,5655,Lappula deflexa,Lappula deflexa (Wahlenb.) Garcke
+Flora,5676,Laserpitium longiradium,Laserpitium longiradium Boiss.
+Flora,466,Leontodon boryi,Leontodon boryi Boiss. ex DC.
+Flora,711,Leontodon microcephalus,Scorzoneroides microcephala (Boiss. ex DC.) Holub
+Flora,5598,Lepidium cardamines,Lepidium cardamines L.
+Flora,33085,Limonium arborescens,"Limonium arboreum (Willd.) Erben, A. Santos & Reyes-Bet."
+Flora,935,Limonium dendroides,Limonium dendroides Svent.
+Flora,5768,Limonium dodartii,Limonium dodartii (Girard) Kuntze
+Flora,33087,Limonium fruticans,"Limonium frutescens (Webb ex Lem.) Erben, A. Santos & Reyes-Bet."
+Flora,5828,Limonium geronense,Limonium geronense Erben
+Flora,5842,Limonium magallufianum,Limonium magallufianum L.Llorens
+Flora,5843,Limonium majoricum,Limonium majoricum Pignatti
+Flora,5845,Limonium malacitanum  ,Limonium malacitanum Díez Garretas
+Flora,5856,Limonium ovalifolium,Limonium ovalifolium (Poir.) Kuntze
+Flora,1030,Limonium perezii,Limonium perezii (Stapf) C.E.Hubb.
+Flora,487,Limonium perplexum ,Limonium perplexum L.Sáez & Rosselló
+Flora,944,Limonium preauxii,Limonium preauxii (Webb & Berthel.) Kuntze
+Flora,5879,Limonium pseudodictyocladum ,Limonium pseudodictyocladum (Pignatti) L.Llorens
+Flora,947,Limonium spectabile  ,Limonium spectabile (Svent.) G.Kunkel & Sunding
+Flora,948,Limonium sventenii,Limonium sventenii A.Santos & M.Fernández
+Flora,490,Limonium vigoi ,"Limonium vigoi L.Sáez, Curcó & Roselló"
+Flora,5984,Linaria tursica,Linaria tursica Valdés & Cabezudo
+Flora,5996,Lindernia procumbens,Lindernia procumbens (Krock.) Philcox
+Flora,4986,Lithodora nitida ,Glandora nitida (Ern) D.C.Thomas
+Flora,13296,Lythophyllum byssoides,Lithophyllum byssoides (Lamarck) Foslie
+Flora,952,Lotus berthelotii ,Lotus berthelotii Masf.
+Flora,953,Lotus callis-viridis,Lotus callis-viridis Bramwell & D.H.Davis
+Flora,954,Lotus eremiticus   ,Lotus eremiticus A.Santos
+Flora,956,Lotus kunkelii,Lotus kunkelii (Esteve) Bramwell & D.H.Davis
+Flora,957,Lotus maculatus  ,Lotus maculatus Breitf.
+Flora,958,Lotus pyranthus ,Lotus pyranthus P.Pérez
+Flora,6093,Luronium natans,Luronium natans (L.) Raf.
+Flora,5808,Lysimachia minoricensis,Lysimachia minoricensis J.J.Rodr.
+Flora,6119,Lythrum flexuosum,Lythrum flexuosum Lag.
+Flora,6224,Marsilea batardae,Marsilea batardae Launert
+Flora,6226,Marsilea quadrifolia,Marsilea quadrifolia L.
+Flora,6227,Marsilea strigosa,Marsilea strigosa Willd.
+Flora,24254,Marsupella profunda,Marsupella profunda Lindb.
+Flora,6264,Medicago citrina,Medicago citrina (Font Quer) Greuter
+Flora,960,Micromeria glomerata,Micromeria glomerata P.Pérez
+Flora,961,Micromeria leucantha,Micromeria leucantha Svent. ex P.Pérez
+Flora,964,Micropyropsis tuberosa,Micropyropsis tuberosa Romero-Zarco & Cabezudo
+Flora,6375,Moehringia fontqueri,Moehringia fontqueri Pau
+Flora,965,Monanthes wildpretii,Monanthes wildpretii A.Bañares & S.Scholz
+Flora,31880,Myrica rivas-martinezii,Morella rivas-martinezii A. Santos & J. Herbert
+Flora,9445,Nanozostera noltii,Zostera noltii Hornem.
+Flora,9445,Nanozostera noltii,Zostera noltii Hornem.
+Flora,6525,Narcissus asturiensis,Narcissus minor subsp. asturiensis (Jord.) Barra & G.López
+Flora,6514,Narcissus cyclamineus,Narcissus cyclamineus DC. in Redouté
+Flora,6423,Narcissus fernandesii,Narcissus assoanus Dufour ex Schult. & Schult.f.
+Flora,6500,Narcissus humilis,Narcissus cavanillesii Barra & G.López
+Flora,33101,Narcissus longispathus,"Narcissus nevadensis subsp. longispathus (Pugsley) Algarra, Blanca, Cueto & J. Fuente"
+Flora,546,Narcissus nevadensis,Narcissus nevadensis Pugsley
+Flora,80512,Narcissus pseudonarcissus subsp. nobilis,Narcissus nobilis (Haw.) Schult. & Schult. f.
+Flora,6543,Narcissus triandrus,Narcissus triandrus L.
+Flora,6546,Narcissus viridiflorus,Narcissus viridiflorus Schousb.
+Flora,6502,Naufraga balearica,Naufraga balearica Constance & Cannon
+Flora,1376,Normania nava,Normania nava (Webb & Berthel.) Franc.-Ort. & R.N.Lester
+Flora,6427,Nuphar pumila subsp. Pumila,Nuphar luteum subsp. pumilum (Timm) Bonnier & Layens
+Flora,6452,Odontites granatensis,Odontites viscosus subsp. granatensis (Boiss.) Bolliger
+Flora,33079,Omphalodes littoralis subsp. gallaecica ,"Iberodes littoralis subsp. gallaecica (Laínz) M.Serrano, R.Carbajal & S.Ortiz"
+Flora,970,Onopordum carduelinum,Onopordum carduelium Bolle
+Flora,1378,Onopordum nogalesii ,Onopordum nogalesii Svent.
+Flora,24262,Ophioglossum polyphyllum,Ophioglossum polyphyllum A. Braun & Seub.
+Flora,6838,Orchis provincialis,Orchis provincialis Balb. ex Lam. & DC.
+Flora,6797,Ornithogalum reverchonii,Ornithogalum reverchonii Lange
+Flora,6848,Orobanche densiflora,Orobanche densiflora Salzm. ex Reut. in DC.
+Flora,24264,Orthotrichum rogeri,Orthotrichum rogeri Brid.
+Flora,6912,Paeonia cambessedesii,Paeonia cambessedesii (Willk.) Willk. in Willk. & Lange
+Flora,1382,Parolinia schizogynoides,Parolinia schizogynoides Svent.
+Flora,1391,Pericallis appendiculata,Pericallis appendiculata (L.f.) B.Nord.
+Flora,975,Pericallis hadrosoma,Pericallis hadrosoma (Svent.) B.Nord.
+Flora,24131,Petalophyllum ralfsii,Petalophyllum ralfsii (Wilson) Nees & Gottsche ex Lehm.
+Flora,7040,Petrocoptis grandiflora,Petrocoptis grandiflora Rothm.
+Flora,7044,Petrocoptis montsicciana,Petrocoptis montsicciana O.Bolòs & Rivas Mart.
+Flora,7046,Petrocoptis pseudoviscosa,Petrocoptis pseudoviscosa Fern.Casas
+Flora,974,Picris willkommii,Picris willkommii (Sch.Bip.) Nyman
+Flora,7108,Pilularia minuta,Pilularia minuta Durieu in Bory & Durieu
+Flora,6989,Pinguicula nevadensis,Pinguicula nevadensis (H.Lindb.) Casper
+Flora,7146,Plantago algarbiensis,Plantago algarbiensis Samp.
+Flora,976,Plantago famarae,Plantago famarae Svent.
+Flora,6955,Pedicularis comosa subsp. asparagoides,Pedicularis comosa subsp. asparagoides (Lapeyr.) P.Fourn.
+Flora,7028,Pellaea calomelanos,Pellaea calomelanos (Sw.) Link
+Flora,7070,Peucedanum schottii,Peucedanum schottii Besser ex DC.
+Flora,7154,Plantago cornuti,Plantago cornutii Gouan
+Flora,7208,Polygala vayredae,Polygala vayredae Costa
+Flora,7303,(1) Posidonia oceanica,Posidonia oceanica (L.) Delile
+Flora,7412,Psilotum nudum subsp. molesworthiae,Psilotum nudum (L.) P.Beauv.
+Flora,7422,Pteris incompleta ,Pteris incompleta Cav.
+Flora,7422,Pteris incompleta ,Pteris incompleta Cav.
+Flora,36627,Ptilophora mediterranea,"Ptilophora dentata (Kützing) Alongi, Cormaci & G. Furnari"
+Flora,24271,Puccinellia pungens,Puccinellia pungens (Pau) Paunero
+Flora,1427,Pulicaria burchardii,Pulicaria burchardii Hutch.
+Flora,7545,Ranunculus parnassifolius,Ranunculus parnassiifolius L.
+Flora,7576,Ranunculus weylerii,Ranunculus weyleri Marès ex Willk.
+Flora,7653,Reseda jacquinii subsp. litigiosa,Reseda jacquinii subsp. litigiosa (Sennen & Pau) Abdallah & De Wit
+Flora,24099,Riella helicophylla,Riella helicophylla (Bory & Mont.) Mont.
+Flora,7648,Rosmarinus tomentosus,Rosmarinus tomentosus Hub.-Mor. & Maire
+Flora,7723,Rumex rupestris,Rumex rupestris Le Gall
+Flora,7847,Rupicapnos africana subsp. decipiens,Rupicapnos africana subsp. decipiens (Pugsley) Maire in Jahand. & Maire
+Flora,983,Ruta microcarpa,Ruta microcarpa Svent.
+Flora,8252,Seseli farrenyii,Seseli farrenyi Molero & J.Pujadas
+Flora,8366,Silene sennenii ,Silene sennenii Pau
+Flora,8506,Sparganium natans,Sparganium natans L.
+Flora,8622,Stachys maritima,Stachys maritima Gouan
+Flora,33114,Salvia herbanica,"Pleudia herbanica (A.Santos & M.Fernández) M.Will, N.Schmalz & Class.-Bockh."
+Flora,6,Sambucus palmensis,Sambucus nigra subsp. palmensis (Link) Bolli
+Flora,661,Santolina elegans,Santolina elegans Boiss. ex DC.
+Flora,24278,Santolina semidentata,Santolina semidentata Hoffmanns. & Link.
+Flora,7976,Sarcocapnos baetica subsp. baetica,Sarcocapnos baetica (Boiss. & Reut.) Nyman
+Flora,24414,Sarcocapnos baetica subsp. integriflora,Sarcocapnos integrifolia (Boiss.) Cuatrec.
+Flora,7980,Sarcocapnos speciosa ,Sarcocapnos crassifolia subsp. speciosa (Boiss.) Rouy
+Flora,13116,Sargassum acinarium,Sargassum acinarium (Linnaeus) Setchell
+Flora,13120,Sargassum flavifolium,Sargassum flavifolium Kützing
+Flora,13122,Sargassum hornschuchii,Sargassum hornschuchii C. Agardh
+Flora,13126,Sargassum trichocarpum,Sargassum trichocarpum J. Agardh
+Flora,8063,Saxifraga vayredana,Saxifraga vayredana Luizet
+Flora,13366,Schimmelmannia schousboei,Schimmelmannia schousboei (J. Agardh) J. Agardh
+Flora,795,Senecio elodes,Tephroseris elodes (DC.) Holub
+Flora,33040,Senecio hermosae,Bethencourtia hermosae (Pit.) G. Kunkel
+Flora,740,Senecio nevadensis,Senecio nevadensis Boiss. & Reut.
+Flora,8092,Seseli intricatum,Seseli intricatum Boiss.
+Flora,1004,Sideritis cystosiphon  ,Sideritis cystosiphon Svent.
+Flora,1005,Sideritis discolor  ,Sideritis discolor Bolle
+Flora,8328,Sideritis glauca,Sideritis glauca Cav.
+Flora,1006,Sideritis infernalis,Sideritis infernalis Bolle
+Flora,24283,Sideritis javalambrensis,Sideritis javalambrensis Pau
+Flora,1007,Sideritis marmorea,Sideritis marmorea Bolle
+Flora,8351,Sideritis serrata,Sideritis serrata Lag.
+Flora,79803,Sideroxylon marmulano,"Sideroxylon canariense Leyens, Lobin & A.Santos"
+Flora,8396,Silene hifacensis,Silene hifacensis Rouy ex Willk.
+Flora,8396,Silene hifacensis,Silene hifacensis Rouy ex Willk.
+Flora,8411,Silene mariana,Silene mariana Pau
+Flora,1035,Silene nocteolens,Silene nocteolens Webb & Berthel.
+Flora,8455,Sisymbrium cavanillesianum,Sisymbrium cavanillesianum Castrov. & Valdés Berm.
+Flora,1036,Solanum lidii,Solanum lidii Sunding
+Flora,758,Solanum vespertilio subsp. doramae,Solanum vespertilio subsp. doramae Marreno Rodr. & González Martín
+Flora,8495,Soldanella villosa,Soldanella villosa Darracq ex Labarrère
+Flora,1039,Sonchus gandogeri,Sonchus gandogeri Pit.
+Flora,13821,Sphaerococcus rhizophylloides,Sphaerococcus rhizophylloides J.J. Rodríguez y Femenías
+Flora,24060,Sphagnum pylaisii,Sphagnum pylaesii Brid.
+Flora,8606,Spiranthes aestivalis,Spiranthes aestivalis (Poir.) Rich.
+Flora,26765,Stemmacantha cynaroides,Rhaponticum canariense DC.
+Flora,1056,Sventenia bupleuroides,Sventenia bupleuroides Font Quer
+Flora,1319,Tanacetum oshanahanii,"Gonospermum oshanahanii (Marrero Rodr., Febles & Suarez) Febles"
+Flora,1320,Tanacetum ptarmiciflorum,Gonospermum ptarmiciflorum (Webb) Febles
+Flora,1042,Teline nervosa,Teline nervosa (Esteve) A.Hansen & Sunding
+Flora,1339,Teline rosmarinifolia subsp. rosmarinifolia,Teline rosmarinifolia Webb & Berthel. subsp. rosmarinifolia
+Flora,24289,Teline rosmarinifolia subsp. eurifolia,Teline rosmarinifolia subsp. eurifolia del Arco
+Flora,1038,Teline salsoloides,Teline salsoloides del Arco & Acebes
+Flora,24290,Tenarea tortuosa,"Tenarea tortuosa (Esper) Me.Lemoine, 1910"
+Flora,8758,Tetraclinis articulata,Tetraclinis articulata (Vahl) Mast.
+Flora,8714,Teucrium charidemi,Teucrium charidemi Sandwith
+Flora,8811,Teucrium lepicephalum,Teucrium lepicephalum Pau
+Flora,8845,Teucrium turredanum,Teucrium turredanum Losa & Rivas Goday
+Flora,3169,Thorella verticillatinundata,Caropsis verticillato-inundata (Thore) Rauschert
+Flora,8695,Thymelaea broteriana,Thymelaea broteriana Cout.
+Flora,8876,Thymelaea lythroides,Thymelaea lythroides Barratte & Murb.
+Flora,8895,Thymus albicans,Thymus albicans Hoffmanns. & Link
+Flora,8902,Thymus carnosus,Thymus carnosus Boiss.
+Flora,8925,Thymus loscosii,Thymus loscosii Willk. in Willk. & Lange
+Flora,13337,Titanoderma ramosissimum,Titanoderma ramosissimum (Heydrich) Bressan et Cabioch
+Flora,24293,Titanoderma trochanter,"Titanoderma trochanter (Bory) Benhissoune, Boudouresque, Perret-Boudouresque & Verlaque"
+Flora,1048,Tolpis glabrescens,Tolpis glabrescens Kämmer
+Flora,9258,Trichomanes speciosum ,Vandenboschia speciosa (Willd.) G.Kunkel
+Flora,9336,Veronica micrantha,Veronica micrantha Hoffmanns. & Link
+Flora,9158,Vicia bifoliolata,Vicia bifoliolata J.J.Rodr.
+Flora,9390,Viola cazorlensis,Viola cazorlensis Gand.
+Flora,1509,Viola cheiranthifolia,Viola cheiranthifolia Humb. & Bonpl.
+Flora,9396,Viola jaubertiana,Viola jaubertiana Marès & Vigin.
+Flora,80569,Vulpia fontquerana,Vulpia fontqueriana Melderis & Stace
+Flora,9452,Woodsia pulchella,Woodsia glabella subsp. pulchella (Bertol.) Á.Löve & D.Löve
+Flora,9455,Woodwardia radicans,Woodwardia radicans (L.) Sm.
+Flora,9444,Zostera marina,Zostera marina L.
+Invertebrados,34208,Asbestopluma hypogea,"Lycopodina hypogea (Vacelet & Boury-Esnault, 1996)"
+Invertebrados,79300,Austropotamobius pallipes,"Austropotamobius fulsicianus (Ninni, 1886)"
+Invertebrados,11715,Coenagrion mercuriale,"Coenagrion mercuriale (Charpentier, 1840)"
+Invertebrados,10904,Cucujus cinnaberinus,"Cucujus cinnaberinus (Scopoli, 1774)"
+Invertebrados,22052,Cymbula nigra,"Cymbula safiana (Lamarck, 1819)"
+Invertebrados,22785,Dendropoma petraeum,"Dendropoma lebeche Templado, Richter & Calvo, 2016 "
+Invertebrados,36629,Dorysthenes (Opisognathus) forficatus,"Opisognathus forficatus (Fabricius, 1798)"
+Invertebrados,12079,Elona quimperiana,"Elona quimperiana (Blainville, 1821)"
+Invertebrados,10990,Eriogaster catax,"Eriogaster catax (Linnaeus, 1758)"
+Invertebrados,20480,Errina aspera,"Errina aspera (Linnaeus, 1767)"
+Invertebrados,10714,Euphydryas aurinia,"Euphydryas aurinia (Rottemburg, 1775)"
+Invertebrados,24241,Geodia cydonium,"Geodia cydonium (Linnaeus, 1767)"
+Invertebrados,36631,Gibbula nivosa,"Steromphala nivosa (A. Adams, 1853)"
+Invertebrados,11008,Lopinga achine,"Lopinga achine (Scopoli, 1763)"
+Invertebrados,11002,Lucanus cervus,"Lucanus cervus Linnaeus, 1758"
+Invertebrados,34207,Mitra zonata,"Episcomitra zonata (Marryat, 1819)"
+Invertebrados,24259,Ocypode cursor,"Ocypode cursor (Linnaeus, 1758)"
+Invertebrados,24263,Ophiogomphus cecilia,"Ophiogomphus cecilia Fourcroy, 1785"
+Invertebrados,24265,Pachylasma giganteum,"Pachylasma giganteum (Philippi, 1836)"
+Invertebrados,24267,Petrobiona massiliana,"Petrobiona massiliana Vacelet & Lévi, 1958"
+Invertebrados,10740,Parnassius apollo,"Parnassius apollo (Linnaeus, 1758)"
+Invertebrados,11759,Parnassius mnemosyne,"Parnassius mnemosyne (Linnaeus, 1758)"
+Invertebrados,68797,Rhopalomesites euphorbiae,"Rhopalomesites proximus (Wollaston, 1861)"
+Invertebrados,12350,Unio tumidiformis,"Unio tumidiformis Castro, 1885"
+Invertebrados,11224,Acrostira euphorbiae,"Acrostira euphorbiae García & Oromí, 1992"
+Invertebrados,20276,Antipathella subpinnata,"Antipathella subpinnata (Ellis & Solander, 1786)"
+Invertebrados,20266,Antipathes dichotoma,"Antipathes dichotoma Pallas, 1766"
+Invertebrados,237523,(3) Aplysina sp.,"Aplysina Nardo, 1834"
+Invertebrados,10742,Apteromantis aptera,"Apteromantis aptera (Fuente, 1984)"
+Invertebrados,20864,Asterina pancerii,"Asterina pancerii (Gasco, 1870)"
+Invertebrados,20350,Astroides calycularis ,"Astroides calycularis (Pallas, 1766)"
+Invertebrados,24224,Axinella cannabina,"Axinella cannabina (Esper, 1794)"
+Invertebrados,24225,Axinella polypoides,"Axinella polypoides Schmidt, 1862"
+Invertebrados,12373,Baetica ustulata,"Baetica ustulata (Rambur, 1838)"
+Invertebrados,12235,Buprestis splendens ,"Buprestis splendens Fabricius, 1775"
+Invertebrados,20259,Callogorgia verticillata,"Callogorgia verticillata (Pallas, 1766)"
+Invertebrados,24226,Candelacypris aragonica,"Candelacypris aragonica (Brehm & Margalef, 1948)"
+Invertebrados,24227,Carabus (Mesocarabus) riffensis,"Carabus (Messocarabus) riffensis Fairmaire, 1872"
+Invertebrados,20931,Centrostephanus longispinus,"Centrostephanus longispinus (Philippi, 1845)"
+Invertebrados,24319,Cerambyx cerdo,"Cerambyx cerdo Linnaeus, 1758"
+Invertebrados,22589,Charonia lampas lampas ,"Charonia lampas (Linnaeus, 1758)"
+Invertebrados,22590,Charonia tritonis variegata ,"Charonia variegata (Lamarck, 1816)"
+Invertebrados,24231,Chasmatopterus zonatus,"Chasmatopterus zonatus Escalera, 1925"
+Invertebrados,20374,Cladocora caespitosa,"Cladocora caespitosa (Linnaeus, 1767)"
+Invertebrados,20375,Cladocora debilis,"Cladocora debilis Milne Edwards & Haime, 1849"
+Invertebrados,20219,Ellisella paraplexauroides,"Ellisella paraplexauroides Stiasny, 1936"
+Invertebrados,33102,Erosaria spurca,"Naria spurca (Linnaeus, 1758)"
+Invertebrados,32345,Euchloe bazae,"Euchloe bazae Fabiano, 1993"
+Invertebrados,11644,Geomalacus maculosus,"Geomalacus maculosus Allman, 1843"
+Invertebrados,11398,Gomphus graslinii,"Gomphus graslinii Rambur, 1842"
+Invertebrados,33010,Graellsia isabelae,"Actias isabelae (Graells, 1849)"
+Invertebrados,24243,Halophiloscia canariensis,"Halophiloscia canariensis Dalens, 1973"
+Invertebrados,14608,Hornera lichenoides,"Hornera lichenoides (Linnaeus, 1758)"
+Invertebrados,11450,Hyles hippophaes,"Hyles hippophaes (Esper, 1793)"
+Invertebrados,20274,Leiopathes glaberrima,"Leiopathes glaberrima (Esper, 1792)"
+Invertebrados,11950,Leucorrhinia pectoralis,"Leucorrhinia pectoralis (Charpentier, 1825)"
+Invertebrados,12397,Limoniscus violaceus,"Limoniscus violaceus (Müller, 1821)"
+Invertebrados,12311,Lindenia tetraphylla,"Lindenia tetraphylla (Vander Linden, 1825)"
+Invertebrados,21351,Lithophaga lithophaga,"Lithophaga lithophaga (Linnaeus, 1758)"
+Invertebrados,34803,Lophelia pertusa,"Desmophyllum pertusum (Linnaeus, 1758)"
+Invertebrados,22520,Luria lurida,"Luria lurida (Linnaeus, 1758)"
+Invertebrados,11430,Lycaena helle,"Lycaena helle ([Denis & Schiffermüller], 1775)"
+Invertebrados,12236,Macromia splendens,"Macromia splendens Pictet, 1843"
+Invertebrados,10941,Macrothele calpeiana,"Macrothele calpeiana (Walckenaer, 1805)"
+Invertebrados,33112,Maculinea arion,"Phengaris arion (Linnaeus, 1758)"
+Invertebrados,11818,Maculinea nausithous,"Phengaris nausithous (Bergsträsser, 1779)"
+Invertebrados,20372,Madrepora oculata,"Madrepora oculata Linnaeus, 1758"
+Invertebrados,12085,Maiorerus randoi,"Maiorerus randoi Rambla, 1993"
+Invertebrados,10713,Margaritifera auricularia,"Margaritifera auricularia (Spengler, 1793) "
+Invertebrados,11662,Margaritifera margaritifera,"Margaritifera margaritifera (Linnaeus, 1758)"
+Invertebrados,19049,Munidopsis polymorpha,"Munidopsis polymorpha Koelbel, 1892"
+Invertebrados,23019,Nucella lapillus,"Nucella lapillus (Linnaeus, 1758)"
+Invertebrados,20878,Ophidiaster ophidianus,"Ophidiaster ophidianus (Lamarck, 1816)"
+Invertebrados,11213,Osmoderma eremita,"Osmoderma eremita (Scopoli, 1763)"
+Invertebrados,11115,Oxygastra curtisii,"Oxygastra curtisii Dale, 1834"
+Invertebrados,19131,Panulirus echinatus,"Panulirus echinatus Smith, 1869"
+Invertebrados,20283,Parantipathes larix,"Parantipathes larix (Esper, 1790)"
+Invertebrados,70515,Patella candei candei,"Patella candei candei D' Orbigny, 1840"
+Invertebrados,22057,Patella ferruginea,"Patella ferruginea Gmelin, 1791"
+Invertebrados,22053,Patella ulyssiponensis aspera,"Patella aspera Röding, 1798"
+Invertebrados,21325,Pholas dactylus,"Pholas dactylus Linnaeus, 1758"
+Invertebrados,11397,Pimelia granulicollis ,"Pimelia granulicollis Wollaston, 1864"
+Invertebrados,21446,Pinna nobilis,"Pinna nobilis Linnaeus, 1758"
+Invertebrados,21447,Pinna rudis,"Pinna rudis Linnaeus, 1758"
+Invertebrados,11378,Polyommatus golgus,"Polyommatus golgus (Hübner, 1813)"
+Invertebrados,12023,Proserpinus proserpina,"Proserpinus proserpina (Pallas, 1772)"
+Invertebrados,22603,Ranella olearia,"Ranella olearium (Linnaeus, 1758)"
+Invertebrados,10679,Rosalia alpina,"Rosalia alpina (Linnaeus, 1758)"
+Invertebrados,11952,Saga pedo,"Saga pedo (Pallas, 1771)"
+Invertebrados,32347,Sarcotragus foetidus,"Sarcotragus foetidus Schmidt, 1862"
+Invertebrados,24280,Sarcophagus pipetta ,"Sarcotragus pipetta (Schmidt, 1868)"
+Invertebrados,20394,Savalia savaglia,"Savalia savaglia (Bertoloni, 1819)"
+Invertebrados,22521,Schilderia achatidea,"Schilderia achatidea (Gray in G. B. Sowerby I, 1837)"
+Invertebrados,32282,Speleonectes ondinae,"Morlockia ondinae García-Valdecasas, 1984"
+Invertebrados,24291,(4) Tethya sp.,"Tethya Lamarck, 1815"
+Invertebrados,77005,Theodoxus velascoi,"Theodoxus meridionalis (Philippi, 1836)"
+Invertebrados,22763,Tonna galea ,"Tonna galea (Linnaeus, 1758)"
+Invertebrados,36475,Tritia tingitana,"Tritia tingitana (Pallary, 1901)"
+Invertebrados,11658,Unio mancus,"Unio mancus Lamarck, 1819"
+Invertebrados,24297,Unio ravoisieri (antes U. elongatulus),"Unio ravoisieri Deshayes, 1847"
+Invertebrados,10696,Vertigo angustior,"Vertigo angustior Jeffreys, 1830"
+Invertebrados,11788,Vertigo moulinsiana,"Vertigo moulinsiana (Dupuy, 1849)"
+Invertebrados,22522,Zonaria pyrum,"Zonaria pyrum (Gmelin, 1791)"
+Mamíferos,10820,Barbastella barbastellus,"Barbastella barbastellus (Schreber, 1774)"
+Mamíferos,20089,Kogia breviceps,"Kogia breviceps (Blainville, 1838)"
+Mamíferos,20090,Kogia sima,"Kogia sima (Owen, 1866)"
+Mamíferos,20076,Lagenodelphis hosei,"Lagenodelphis hosei Fraser, 1956"
+Mamíferos,11637,Lutra lutra,"Lutra lutra (Linnaeus, 1758)"
+Mamíferos,11943,Lynx pardinus,"Lynx pardinus (Temminck, 1827)"
+Mamíferos,20069,Megaptera novaeangliae,"Megaptera novaeangliae (Borowski, 1781)"
+Mamíferos,20095,Mesoplodon densirostris,"Mesoplodon densirostris (Blainville, 1817)"
+Mamíferos,20096,Mesoplodon europaeus,"Mesoplodon europaeus (Gervais, 1855)"
+Mamíferos,20098,Mesoplodon mirus,"Mesoplodon mirus True, 1913"
+Mamíferos,11803,Myotis myotis ,"Myotis myotis (Borkhausen, 1797)"
+Mamíferos,10669,Atelerix algirus ,"Atelerix algirus (Lereboullet, 1842)"
+Mamíferos,32175,Balaenoptera acutorostrata,"Balaenoptera acutorostrata Lacépède, 1804"
+Mamíferos,32176,Balaenoptera borealis,"Balaenoptera borealis Lesson, 1828"
+Mamíferos,20066,Balaenoptera edeni/brydei,"Balaenoptera edeni Anderson, 1879"
+Mamíferos,32177,Balaenoptera musculus,"Balaenoptera musculus (Linnaeus, 1758)"
+Mamíferos,32178,Balaenoptera physalus  ,"Balaenoptera physalus (Linnaeus, 1758)"
+Mamíferos,11627,Canis lupus,"Canis lupus Linnaeus, 1758"
+Mamíferos,16233,Castor fiber,"Castor fiber Linnaeus, 1758"
+Mamíferos,10948,Crocidura canariensis,"Crocidura canariensis Hutterer, López-Jurado y Vogel, 1987"
+Mamíferos,32179,Delphinus delphis,"Delphinus delphis Linnaeus, 1758"
+Mamíferos,32179,Delphinus delphis,"Delphinus delphis Linnaeus, 1758"
+Mamíferos,11792,Eliomys munbyanus,"Eliomys munbyanus (Pomel, 1856)"
+Mamíferos,16225,Eptesicus isabellinus(antes E. serotinus),"Eptesicus isabellinus (Temminck, 1840)"
+Mamíferos,12197,Eptesicus serotinus,"Eptesicus serotinus (Schreber, 1774)"
+Mamíferos,20063,Eubalaena glacialis,"Eubalaena glacialis (Müller, 1776)"
+Mamíferos,12214,Felis silvestris,"Felis silvestris Schreber, 1777"
+Mamíferos,12059,Galemys pyrenaicus,"Galemys pyrenaicus (É. Geoffroy Saint-Hilaire, 1811)"
+Mamíferos,12059,Galemys pyrenaicus,"Galemys pyrenaicus (É. Geoffroy Saint-Hilaire, 1811)"
+Mamíferos,20073,Globicephala macrorhynchus,"Globicephala macrorhynchus Gray, 1846"
+Mamíferos,32180,Globicephala melas,"Globicephala melas (Traill, 1809)"
+Mamíferos,32180,Globicephala melas,"Globicephala melas (Traill, 1809)"
+Mamíferos,20075,Grampus griseus,"Grampus griseus (G. Cuvier, 1812)"
+Mamíferos,20093,Hyperoodon ampullatus,"Hyperoodon ampullatus (Forster, 1770)"
+Mamíferos,12154,Hypsugo savii,"Hypsugo savii (Bonaparte, 1837)"
+Mamíferos,16235,Iberomys (Microtus) cabrerae,"Iberomys cabrerae (Thomas, 1906)"
+Mamíferos,12169,Miniopterus schreibersii  ,"Miniopterus schreibersii (Kuhl, 1817)"
+Mamíferos,11767,Monachus monachus,"Monachus monachus (Hermann, 1779)"
+Mamíferos,11214,Mustela erminea,"Mustela erminea Linnaeus, 1758"
+Mamíferos,11638,Mustela lutreola,"Mustela lutreola (Linnaeus, 1761)"
+Mamíferos,10661,Myotis alcathoe (= M. mystacinus),"Myotis alcathoe Helversen & Heller, 2001"
+Mamíferos,10826,Myotis bechsteinii ,"Myotis bechsteinii (Kuhl, 1817)"
+Mamíferos,10866,Myotis blythii ,"Myotis blythii (Tomes, 1857)"
+Mamíferos,10958,Myotis capaccinii,"Myotis capaccinii (Bonaparte, 1837)"
+Mamíferos,11131,Myotis daubentonii,"Myotis daubentonii (Kuhl, 1817)"
+Mamíferos,11206,Myotis emarginatus  ,"Myotis emarginatus (E. Geoffroy, 1806)"
+Mamíferos,16226,Myotis nattereri (=M. escalerai),"Myotis escalerai Cabrera, 1904"
+Mamíferos,16227,Myotis nattereri (=M. escalerai),"Myotis crypticus Ruedi et al., 2019"
+Mamíferos,11805,Myotis mystacinus ,"Myotis mystacinus (Kuhl, 1817)"
+Mamíferos,12040,Myotis punicus,"Myotis punicus Felten, 1977"
+Mamíferos,11566,Nyctalus lasiopterus ,"Nyctalus lasiopterus (Schreber, 1780)"
+Mamíferos,11573,Nyctalus leisleri,"Nyctalus leisleri (Kuhl, 1817)"
+Mamíferos,11862,Nyctalus noctula  ,"Nyctalus noctula (Schreber, 1774)"
+Mamíferos,20079,Orcinus orca,"Orcinus orca (Linnaeus, 1758)"
+Mamíferos,20079,Orcinus orca,"Orcinus orca (Linnaeus, 1758)"
+Mamíferos,32181,Phocoena phocoena  ,"Phocoena phocoena (Linnaeus, 1758)"
+Mamíferos,24217,Physeter macrocephalus,"Physeter macrocephalus Linnaeus, 1758"
+Mamíferos,11550,Pipistrellus kuhlii,"Pipistrellus kuhlii (Kuhl, 1817)"
+Mamíferos,11646,Pipistrellus maderensis,"Pipistrellus maderensis (Dobson, 1878)"
+Mamíferos,11814,Pipistrellus nathusii,"Pipistrellus nathusii (Keyserling & Blasius, 1839)"
+Mamíferos,11991,Pipistrellus pipistrellus,"Pipistrellus pipistrellus (Schreber, 1774)"
+Mamíferos,12050,Pipistrellus pygmaeus (antes P. pipistrellus),"Pipistrellus pygmaeus (Leach, 1825)"
+Mamíferos,10715,Plecotus auritus,"Plecotus auritus (Linnaeus, 1758)"
+Mamíferos,10799,Plecotus austriacus,"Plecotus austriacus (J. Fischer, 1829)"
+Mamíferos,11641,Plecotus macrobullaris,"Plecotus macrobullaris Kuzjakin,1965"
+Mamíferos,12303,Plecotus teneriffae,"Plecotus teneriffae Barrett-Hamilton, 1907"
+Mamíferos,20080,Pseudorca crassidens,"Pseudorca crassidens (Owen, 1846)"
+Mamíferos,11230,Rhinolophus euryale ,"Rhinolophus euryale Blasius, 1853"
+Mamíferos,11264,Rhinolophus ferrumequinum ,"Rhinolophus ferrumequinum (Schreber, 1774)"
+Mamíferos,11451,Rhinolophus hipposideros,"Rhinolophus hipposideros (Bechstein, 1800)"
+Mamíferos,11702,Rhinolophus mehelyi ,"Rhinolophus mehelyi Matschie, 1901"
+Mamíferos,20082,Stenella coeruleoalba,"Stenella coeruleoalba (Meyen, 1833)"
+Mamíferos,20083,Stenella frontalis,"Stenella frontalis (G. Cuvier, 1829)"
+Mamíferos,20085,Steno bredanensis,"Steno bredanensis (G. Cuvier, in Lesson, 1828)"
+Mamíferos,12305,Tadarida teniotis,"Tadarida teniotis (Rafinesque, 1814)"
+Mamíferos,20087,Tursiops truncatus ,"Tursiops truncatus (Montagu,1821)"
+Mamíferos,10755,Ursus arctos,"Ursus arctos Linnaeus, 1758"
+Mamíferos,20099,Ziphius cavirostris,"Ziphius cavirostris G. Cuvier, 1823"
+Peces,10752,Chondrostoma arcasii,"Achondrostoma arcasii (Steindachner, 1866)"
+Peces,15035,Acipenser sturio ,"Acipenser sturio Linnaeus, 1758 "
+Peces,201579,(6) Alopiidae ,"Alopiidae Bonaparte, 1835"
+Peces,11454,Anaecypris hispanica ,"Anaecypris hispanica (Steindachner, 1866)"
+Peces,10807,Aphanius baeticus ,"Aphanius baeticus Doadrio, Carmona & Fernández-Delgado, 2002"
+Peces,11495,Aphanius iberus ,"Aphanius iberus (Valenciennes, 1846)"
+Peces,15999,Carcharias taurus,"Carcharias taurus Rafinesque, 1810"
+Peces,15994,Carcharodon carcharias,"Carcharodon carcharias (Linnaeus, 1758)"
+Peces,15993,Cetorhinus maximus,"Cetorhinus maximus (Gunnerus, 1765)"
+Peces,15932,Chilomycterus atringa,"Chilomycterus reticulatus (Linnaeus, 1758)"
+Peces,10795,Cottus aturi (= C. gobio),"Cottus aturi Freyhof, Kottelat & Nolte, 2005"
+Peces,11471,Cottus hispaniolensis  (= C. gobio),"Cottus hispaniolensis Bâcescu & Bâcescu-Mester, 1964"
+Peces,16020,Dipturus batis,"Dipturus batis (Linnaeus, 1758)"
+Peces,15982,Galeorhinus galeus,"Galeorhinus galeus (Linnaeus, 1758)"
+Peces,16007,Gymnura altavela,"Gymnura altavela (Linnaeus, 1758)"
+Peces,15916,Hippocampus guttulatus (= H. ramulosus) ,"Hippocampus guttulatus Cuvier, 1829"
+Peces,15917,Hippocampus hippocampus ,"Hippocampus hippocampus (Linnaeus, 1758)"
+Peces,15995,Isurus oxyrinchus,"Isurus oxyrinchus Rafinesque, 1810"
+Peces,15997,Lamna nasus,"Lamna nasus (Bonnaterre, 1788)"
+Peces,11997,Lampetra planeri,"Lampetra planeri (Bloch, 1784)"
+Peces,16023,Leucoraja circularis,"Leucoraja circularis (Couch, 1838)"
+Peces,24250,Leucoraja melitensis,"Leucoraja melitensis (Clark, 1926)"
+Peces,16010,Mobula mobular,"Mobula mobular (Bonnaterre, 1788)"
+Peces,16000,Odontaspis ferox,"Odontaspis ferox (Risso, 1810)"
+Peces,16060,Oxynotus centrina,"Oxynotus centrina (Linnaeus, 1758)"
+Peces,10765,Parachondrostoma arrigonis (= Chondrostoma arrigonis) ,"Parachondrostoma arrigonis (Steindachner, 1866)"
+Peces,11673,Petromyzon marinus,"Petromyzon marinus Linnaeus, 1758"
+Peces,16017,Pristis pectinata,"Pristis pectinata Latham, 1794"
+Peces,16018,Pristis pristis,"Pristis pristis (Linnaeus, 1758)"
+Peces,79268,Rhinobatos cemiculus,"Glaucostegus cemiculus (Geoffroy Saint-Hilaire, 1817)"
+Peces,16045,Rhinobatos rhinobatos,"Rhinobatos rhinobatos (Linnaeus, 1758)"
+Peces,16043,Rostroraja alba,"Rostroraja alba (Lacepède, 1803)"
+Peces,11287,Salaria fluviatilis (= Blennius fluviatilis),"Salaria fluviatilis (Asso, 1801)"
+Peces,201574,(5) Sphyrnidae,"Sphyrnidae Bonaparte,1840"
+Peces,11925,Squalius palaciosi (= Iberocypris palaciosi),"Squalius palaciosi (Doadrio, 1980)"
+Peces,16072,Squatina aculeata,"Squatina aculeata Cuvier, 1829"
+Peces,16072,Squatina aculeata,"Squatina aculeata Cuvier, 1829"
+Peces,20053,Squatina oculata,"Squatina oculata Bonaparte, 1840"
+Peces,20053,Squatina oculata,"Squatina oculata Bonaparte, 1840"
+Peces,16073,Squatina squatina,"Squatina squatina (Linnaeus, 1758)"
+Peces,16073,Squatina squatina,"Squatina squatina (Linnaeus, 1758)"
+Peces,11455,Valencia hispanica,"Valencia hispanica (Valenciennes, 1846)"
+Reptiles,11682,Iberolacerta martinezricai,"Iberolacerta martinezricai (Arribas, 1996)"
+Reptiles,11660,Algyroides marchi,"Algyroides marchi Valverde, 1958"
+Reptiles,11301,Anguis fragilis ,"Anguis fragilis Linnaeus, 1758"
+Reptiles,10901,Blanus cinereus,"Blanus cinereus (Vandelli, 1797)"
+Reptiles,12320,Blanus tingitanus,"Blanus tingitanus Busack, 1988"
+Reptiles,10970,Caretta caretta ,"Caretta caretta (Linnaeus, 1758)"
+Reptiles,10827,Chalcides bedriagai,"Chalcides bedriagai (Boscá, 1880)"
+Reptiles,11058,Chalcides colosii,"Chalcides colosii Lanza, 1957"
+Reptiles,12025,Chalcides pseudostriatus,"Chalcides pseudostriatus Caputo, 1993"
+Reptiles,12202,Chalcides sexlineatus,"Chalcides sexlineatus Steindachner, 1891"
+Reptiles,12218,Chalcides simonyi,"Chalcides simonyi Steindachner, 1891"
+Reptiles,12254,Chalcides striatus (antes Chalcides chalcides),"Chalcides striatus (Cuvier, 1829)"
+Reptiles,11220,Acanthodactylus erythrurus,"Acanthodactylus erythrurus (Schinz, 1833)"
+Reptiles,12399,Chalcides viridanus,"Chalcides viridanus (Gravenhorst, 1851)"
+Reptiles,10883,Chamaeleo chamaeleon,"Chamaeleo chamaeleon (Linnaeus, 1758)"
+Reptiles,11801,Chelonia mydas,"Chelonia mydas (Linnaeus, 1758)"
+Reptiles,10718,Coronella austriaca,"Coronella austriaca Laurenti, 1768"
+Reptiles,11362,Coronella girondica ,"Coronella girondica (Daudin, 1803)"
+Reptiles,20100,Dermochelys coriacea,"Dermochelys coriacea (Vandelli, 1761) "
+Reptiles,11903,Emys orbicularis,"Emys orbicularis (Linnaeus, 1758)"
+Reptiles,11505,Eretmochelys imbricata,"Eretmochelys imbricata (Linnaeus, 1766)"
+Reptiles,10785,Gallotia atlantica,"Gallotia atlantica (Peters & Doria, 1882)"
+Reptiles,10875,Gallotia gomerana  ,"Gallotia bravoana Hutterer, 1985"
+Reptiles,24239,Gallotia galloti insulanagae,Gallotia galloti insulanagae Martin 1985
+Reptiles,11516,Gallotia intermedia ,"Gallotia intermedia Hernández, Nogales & Martín, 2000"
+Reptiles,12219,Gallotia simonyi  ,"Gallotia simonyi (Steindachner, 1889)"
+Reptiles,12242,Gallotia stehlini,"Gallotia stehlini (Schenkel, 1901)"
+Reptiles,12351,Hemidactylus turcicus ,"Hemidactylus turcicus (Linnaeus, 1758)"
+Reptiles,11448,Hemorrhois hippocrepis (antes Coluber hippocrepis),"Hemorrhois hippocrepis (Linnaeus, 1758)"
+Reptiles,12402,Hierophis viridiflavus (antes Coluber viridiflavus) ,"Hierophis viridiflavus (Lacépède, 1789)"
+Reptiles,10748,Iberolacerta aranica (antes Lacerta aranica),"Iberolacerta aranica (Arribas, 1993)"
+Reptiles,10712,Iberolacerta aurelioi (antes Lacerta aurelioi),"Iberolacerta aurelioi (Arribas, 1994)"
+Reptiles,10726,Iberolacerta bonnali (antes Lacerta bonnali),"Iberolacerta bonnali (Lantz, 1927)"
+Reptiles,11123,Iberolacerta cyreni,"Iberolacerta cyreni (Müller & Hellmich, 1937)"
+Reptiles,11330,Iberolacerta galani (antes incluida en Iberolacerta monticola),"Iberolacerta galani Arribas, Carranza & Odierna, 2006"
+Reptiles,11779,Iberolacerta monticola (antes Lacerta monticola) ,"Iberolacerta monticola (Boulenger, 1905)"
+Reptiles,11034,Lacerta agilis,"Lacerta agilis (Linnaeus, 1758)"
+Reptiles,10852,Lacerta bilineata (=Lacerta viridis bilineata),"Lacerta bilineata (Daudin, 1802)"
+Reptiles,12168,Lacerta schreiberi,"Lacerta schreiberi Bedriaga, 1878"
+Reptiles,11545,Lepidochelys kempii,"Lepidochelys kempii (Garman, 1880)"
+Reptiles,16213,Lepidochelys olivacea,"Lepidochelys olivacea (Eschscholtz, 1829)"
+Reptiles,10913,Macroprotodon brevis (antes M. cucullatus),"Macroprotodon brevis (Günther, 1862)"
+Reptiles,11696,Macroprotodon mauritanicus (antes M. cucullatus),"Macroprotodon mauritanicus Guichenot, 1850"
+Reptiles,11585,Mauremys leprosa,"Mauremys leprosa (Schweigger, 1812)"
+Reptiles,11688,Natrix maura  ,"Natrix maura (Linnaeus, 1758)"
+Reptiles,11815,Natrix natrix,"Natrix natrix (Linnaeus, 1758)"
+Reptiles,11596,Podarcis lilfordi,"Podarcis lilfordi (Günther, 1874)"
+Reptiles,11794,Podarcis muralis,"Podarcis muralis (Laurenti, 1768)"
+Reptiles,11995,Podarcis pityusensis,"Podarcis pityusensis (Boscá, 1883)"
+Reptiles,12208,Podarcis sicula,"Podarcis sicula (Rafinesque, 1810)"
+Reptiles,12385,Podarcis vaucheri (antes Podarcis hispanica),"Podarcis vaucheri (Boulenger, 1905)"
+Reptiles,10670,Psammodromus algirus,"Psammodromus algirus (Linnaeus, 1758)"
+Reptiles,11461,Psammodromus hispanicus,"Psammodromus hispanicus Fitzinger, 1826"
+Reptiles,33095,Rhinechis scalaris (antes Elaphe scalaris),"Zamenis scalaris (Schinz, 1822)"
+Reptiles,10695,Tarentola angustimentalis,"Tarentola angustimentalis Steindachner, 1891"
+Reptiles,10870,Tarentola boettgeri,"Tarentola boettgeri Steindachner, 1891"
+Reptiles,11141,Tarentola delalandii,"Tarentola delalandii (Duméril & Bibron, 1836)"
+Reptiles,11379,Tarentola gomerensis,"Tarentola gomerensis Joger & Bischoff, 1983"
+Reptiles,11692,Tarentola mauritanica,"Tarentola mauritanica (Linnaeus, 1758)"
+Reptiles,11385,Testudo graeca,"Testudo graeca Linnaeus, 1758"
+Reptiles,11434,Testudo hermanni,"Testudo hermanni (Gmelin, 1789)"
+Reptiles,11434,Testudo hermanni,"Testudo hermanni (Gmelin, 1789)"
+Reptiles,11582,Timon lepidus (antes Lacerta lepida),"Timon lepidus (Daudin, 1802)"
+Reptiles,12291,Timon tangitanus (antes Lacerta tangitana),"Timon tangitanus (Boulenger, 1887)"
+Reptiles,12426,Trogonophis wiegmanni elegans ,"Trogonophis wiegmanni Kaup, 1830"
+Reptiles,11567,Vipera latastei,"Vipera latastei Boscá, 1878"
+Reptiles,11616,Zamenis longissimus (antes Elaphe longissima) ,"Zamenis longissimus (Laurenti, 1768)"
+Reptiles,12411,Zootoca vivipara,"Zootoca vivipara (Jacquin, 1787)"

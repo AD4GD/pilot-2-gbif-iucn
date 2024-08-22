@@ -1,0 +1,22 @@
+## paths to directories
+input_dir: 'input'
+output_dir: 'output'
+
+## input CSV (or XLSX) file uploaded by user which lists all potential species of interest (only scientific names)
+# The list can contain reasonable amount of errors in spelling, extra symbols, but it must be exhaustive to map to 
+input_species: 'species_by_user.csv'
+# another option to list potential target species
+species_ids: [29672, 12848, 12520] # TODO - deprecated, replace all inputs with a file
+
+## input raster dataset
+input_raster: 'ict_2022.tif'
+
+## output CSV files 
+# file with concatenated data from IUCN accessed through DOPA REST services
+iucn_csv: 'concat_species_IUCN.csv'
+# file with fixed scientific names and enriched with GBIF ID keys
+gbif_key_csv: 'mapped_species_GBIF.csv'
+
+## output GBIF occurrence datacube - TODO - revise
+gbif_datacube_csv: 'datacube.csv' # occurrence datacube fetched through GBIF API
+gbif_datacube_tif: '{input_raster_base}_gbif.{extension}' # regridded occurrence datacube written to the new band of input raster

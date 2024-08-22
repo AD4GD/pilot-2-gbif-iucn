@@ -1,0 +1,31 @@
+usageKey,acceptedUsageKey,scientificName,canonicalName,rank,status,confidence,note,matchType,gbifKey,gbifSpeciesKey
+7964291,,"Felis silvestris Schreber, 1777",Felis silvestris,SPECIES,ACCEPTED,99,,EXACT,7964291,7964291
+8211070,,"Sciurus vulgaris Linnaeus, 1758",Sciurus vulgaris,SPECIES,ACCEPTED,99,,HIGHERRANK,8211070,8211070
+2438793,,"Mus spretus Lataste, 1883",Mus spretus,SPECIES,ACCEPTED,99,,EXACT,2438793,2438793
+5219616,,"Erinaceus europaeus Linnaeus, 1758",Erinaceus europaeus,SPECIES,ACCEPTED,99,,EXACT,5219616,5219616
+5218987,,"Mustela nivalis Linnaeus, 1766",Mustela nivalis,SPECIES,ACCEPTED,99,,EXACT,5218987,5218987
+5219007,,"Mustela lutreola (Linnaeus, 1761)",Mustela lutreola,SPECIES,ACCEPTED,99,,EXACT,5219007,5219007
+6180055,,"Tetrao urogallus aquitanicus C.Ingram, 1915",Tetrao urogallus aquitanicus,SUBSPECIES,ACCEPTED,98,,EXACT,6180055,2473577
+2433875,,"Meles meles (Linnaeus, 1758)",Meles meles,SPECIES,ACCEPTED,99,,EXACT,2433875,2433875
+5218878,,"Martes martes (Linnaeus, 1758)",Martes martes,SPECIES,ACCEPTED,99,,EXACT,5218878,5218878
+2433753,,"Lutra lutra (Linnaeus, 1758)",Lutra lutra,SPECIES,ACCEPTED,99,,EXACT,2433753,2433753
+2435261,,"Lynx pardinus (Temminck, 1827)",Lynx pardinus,SPECIES,ACCEPTED,99,,EXACT,2435261,2435261
+2435240,,"Lynx lynx (Linnaeus, 1758)",Lynx lynx,SPECIES,ACCEPTED,99,,EXACT,2435240,2435240
+5219173,,"Canis lupus Linnaeus, 1758",Canis lupus,SPECIES,ACCEPTED,100,,EXACT,5219173,5219173
+5219243,,"Vulpes vulpes (Linnaeus, 1758)",Vulpes vulpes,SPECIES,ACCEPTED,99,,EXACT,5219243,5219243
+5218887,,"Martes foina (Erxleben, 1777)",Martes foina,SPECIES,ACCEPTED,99,,EXACT,5218887,5218887
+5219362,,"Genetta genetta (Linnaeus, 1758)",Genetta genetta,SPECIES,ACCEPTED,99,,EXACT,5219362,5219362
+7952072,,"Lepus europaeus Pallas, 1778",Lepus europaeus,SPECIES,ACCEPTED,99,,EXACT,7952072,7952072
+2433433,,"Ursus arctos Linnaeus, 1758",Ursus arctos,SPECIES,ACCEPTED,99,,HIGHERRANK,2433433,2433433
+2431827,,"Calotriton arnoldi Carranza & Amat, 2005",Calotriton arnoldi,SPECIES,ACCEPTED,99,,EXACT,2431827,2431827
+2473222,,"Blanus cinereus Vandelli, 1797",Blanus cinereus,SPECIES,ACCEPTED,97,,EXACT,2473222,2473222
+7837038,,"Iberolacerta aranica (Arribas, 1993)",Iberolacerta aranica,SPECIES,ACCEPTED,99,,EXACT,7837038,7837038
+2468520,,"Iberolacerta aurelioi (Arribas, 1994)",Iberolacerta aurelioi,SPECIES,ACCEPTED,99,,EXACT,2468520,2468520
+6159223,,"Lacerta agilis Linnaeus, 1758",Lacerta agilis,SPECIES,ACCEPTED,99,,EXACT,6159223,6159223
+8909809,,"Emys orbicularis (Linnaeus, 1758)",Emys orbicularis,SPECIES,ACCEPTED,99,,EXACT,8909809,8909809
+2441454,,"Testudo hermanni Gmelin, 1789",Testudo hermanni,SPECIES,ACCEPTED,99,,EXACT,2441454,2441454
+2437760,,"Apodemus sylvaticus (Linnaeus, 1758)",Apodemus sylvaticus,SPECIES,ACCEPTED,99,,EXACT,2437760,2437760
+2426612,,"Alytes obstetricans (Laurenti, 1768)",Alytes obstetricans,SPECIES,ACCEPTED,99,,EXACT,2426612,2426612
+2435506,,"Suncus etruscus (Savi, 1822)",Suncus etruscus,SPECIES,ACCEPTED,98,,EXACT,2435506,2435506
+7705930,,"Sus scrofa Linnaeus, 1758",Sus scrofa,SPECIES,ACCEPTED,99,,HIGHERRANK,7705930,7705930
+7062174,,Testudo hermanni hermanni,Testudo hermanni hermanni,SUBSPECIES,ACCEPTED,98,,EXACT,7062174,2441454
