@@ -1,4 +1,4 @@
-These blocks are solving the task of extracting available data for potential sub(species) of interest with the data from GBIF, IUCN and ancillary user-defined sources.
+These blocks are solving the task of extracting available data for potential sub(species) of interest with data from GBIF, IUCN and ancillary user-defined sources.
 
 Output data are to be fetched in two ways:
 1. tabular data with all data available from GBIF, IUCN and ancillary sources.
