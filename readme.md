@@ -4,7 +4,6 @@ This tool os solving the task of the extraction of available data for potential 
 
 #### Input data
 
-Input data are:
 1. List of scientific names of potential target sub(species) (another option of species list accessed through command-line is yet to be implemented)
 - Mandatory: yes
 - Format: CSV/XLSX or command line string
@@ -17,7 +16,6 @@ Input data are:
 
 #### Output data
 
-Output data are to be fetched in two ways:
 1. Tabular data with all data available from GBIF, IUCN and ancillary sources
 - Mandatory: yes
 - Format: CSV
@@ -27,7 +25,7 @@ Output data are to be fetched in two ways:
 
 #### Workflow description
 
-Workflow is being implemented in a few steps (for the visualisation, see ![diagram](visualisation/workflow.png)):
+Workflow is being implemented in a few steps: ![diagram](visualisation/workflow.png)
 
 1. GBIF-enrichment ***(MANDATORY)***
 	- [GBIF Species API (GET /species/match)](https://techdocs.gbif.org/en/openapi/v1/species#/Searching%20names/matchNames) to fix the custom list of scientific names of species
