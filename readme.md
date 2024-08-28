@@ -1,6 +1,6 @@
 ### Enrichment of species with data from IUCN, GBIF and ancillary sources
 
-This tool os solving the task of the extraction of available data for potential sub(species) of interest from GBIF, IUCN and ancillary user-defined sources and enrichment it with spatial raster datasets.
+This tool is solving the task of the extraction of available data for potential sub(species) of interest from GBIF, IUCN and ancillary user-defined sources and enrichment it with spatial raster datasets.
 
 #### Input data
 
@@ -55,8 +55,10 @@ This tool is partly completed, but a few improvements are planned to be done:
 
 - **Currently, the third step is missing (mapping GBIF tabular data and IUCN tabular data by unique IDs). It is yet to be explored through [Checklistbank tools](https://www.checklistbank.org/tools/name-match-async) or by scientific or canonical names.**
 - **Designing an interface to filter species in the tabular output by user depending on their knowledge and experience to access GBIF datacubes later for filtered species only.**
+- **Testing Common Workflow Language (CWL) for this workflow.**
 - Fetching data on habitat suitability and importance from IUCN.
 - Cleaning up the code, aligning variables with the configuration file is required.
 - Fetching URLs to IUCN webpages of species.
 - Testing [IUCN API v4](https://apiv3.iucnredlist.org/) once it is published and available for sign-up.
 - Test fetching other scopes of IUCN assessment, apart from Global one, to bring regional protection categories (for example, Europe and Mediterranean ones for *Lynx lynx*).
+- Test another access option of regional dataset from [Open data initiative of the Government of Spain API](https://datos.gob.es/en/apidata). It might worth switching to this API instead of Socrata API if it doesn't require user authentication.

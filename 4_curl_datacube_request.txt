@@ -1,4 +1,4 @@
-# to replace with own username and password
+# to replace with own username and password on GBIF: https://www.gbif.org/user/profile
 1. curl --include --user username:password --header "Content-Type: application/json" --data @4_query_datacube.json https://api.gbif.org/v1/occurrence/download/request
 
 # returns download code on the last line

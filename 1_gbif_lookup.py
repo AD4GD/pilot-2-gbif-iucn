@@ -102,6 +102,8 @@ def process_species_data(data):
         #"alternatives": data.get('alternatives', []) # to show alternative scientific names
     }
 
+# TODO - to bring the fixed name of species, not subspecies as DOPA REST service doesn't support them!
+
 # Overarching function if input file is csv
 def lookup_species_from_csv(file_path, output_path):
     try:
