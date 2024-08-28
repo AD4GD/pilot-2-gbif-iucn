@@ -61,4 +61,4 @@ This tool is partly completed, but a few improvements are planned to be done:
 - Fetching URLs to IUCN webpages of species.
 - Testing [IUCN API v4](https://apiv3.iucnredlist.org/) once it is published and available for sign-up.
 - Test fetching other scopes of IUCN assessment, apart from Global one, to bring regional protection categories (for example, Europe and Mediterranean ones for *Lynx lynx*).
-- Test another access option of regional dataset from [Open data initiative of the Government of Spain API](https://datos.gob.es/en/apidata). It might worth switching to this API instead of Socrata API if it doesn't require user authentication.
+- Test another access option of regional dataset from [Open data initiative of the Government of Spain API](https://datos.gob.es/en/apidata) (portal down on 28/08/2024). It might worth switching to this API instead of Socrata API if it doesn't require user authentication.
