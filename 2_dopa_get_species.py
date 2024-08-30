@@ -43,6 +43,7 @@ def process_species_4_IUCN(scientific_name):
     params = {
         "format": "json", 
         "a_binomial": scientific_name, # use the scientific name to search as IUCN taxon ID might be tricky to map with GBIF taxon ID
+        # works with species only, not subspecies!
         "fields": "id_no" # return only IUCN species ID
     }
     
@@ -108,7 +109,7 @@ def lookup_species_from_csv(file_path, output_path):
     print(f"Final results saved to {output_path}")
 
 # Previous version of the DOPA REST function 42032. get_dopa_species (fetch info only by species IDs)
-'''
+
 def dopa_fetch_iucn(species_ids):
     """
     Fetches IUCN species data from the DOPA REST service for a list of species IDs.
@@ -153,7 +154,8 @@ def dopa_fetch_iucn(species_ids):
             print(f"Debugging statement: error fetching data for species ID {species_id}: {response.status_code} - {response.text}")
     
     return df_list
-'''
+
+# TODO - raise a warning if shape of ID has 0 rows - no records found
 
 # fetch the data and get a list of datafranes
 df_list = dopa_fetch_iucn(species_ids)

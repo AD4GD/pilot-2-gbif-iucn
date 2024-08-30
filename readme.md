@@ -2,6 +2,8 @@
 
 This tool is solving the task of the extraction of available data for potential sub(species) of interest from GBIF, IUCN and ancillary user-defined sources and enrichment it with spatial raster datasets.
 
+**Registration is required to access [DOPA REST services](https://dopa-services.jrc.ec.europa.eu/services/) to get complete data.**
+
 #### Input data
 
 1. List of scientific names of potential target sub(species) (another option of species list accessed through command-line is yet to be implemented)
@@ -60,5 +62,5 @@ This tool is partly completed, but a few improvements are planned to be done:
 - Cleaning up the code, aligning variables with the configuration file is required.
 - Fetching URLs to IUCN webpages of species.
 - Testing [IUCN API v4](https://apiv3.iucnredlist.org/) once it is published and available for sign-up.
-- Test fetching other scopes of IUCN assessment, apart from Global one, to bring regional protection categories (for example, Europe and Mediterranean ones for *Lynx lynx*).
+- Test fetching other scopes of IUCN assessment, apart from the Global one, to bring regional protection categories, which are recorded by another ID (for example, Europe and Mediterranean ones for *Lynx lynx* can be accessed through [1](https://www.iucnredlist.org/species/12519/177350310) and [2](https://www.iucnredlist.org/species/12519/3350985) URLS with the same species ID, but different scope ID).
 - Test another access option of regional dataset from [Open data initiative of the Government of Spain API](https://datos.gob.es/en/apidata) (portal down on 28/08/2024). It might worth switching to this API instead of Socrata API if it doesn't require user authentication.

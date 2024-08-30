@@ -6,7 +6,41 @@ output_dir: 'output'
 # The list can contain reasonable amount of errors in spelling, extra symbols, but it must be exhaustive to map to 
 input_species: 'species_by_user.csv'
 # another option to list potential target species
-species_ids: [29672, 12848, 12520] # TODO - deprecated, replace all inputs with a file
+species_ids: [
+60354712,
+20025,
+13985,
+29650,
+70207409,
+14018,
+22679487,
+29673,
+12848,
+12419,
+12520,
+12519,
+3746,
+23062,
+29672,
+41698,
+41280,
+41688,
+136131,
+204702171,
+61512,
+61513,
+157288,
+7717,
+21648,
+1904,
+55268,
+90389138,
+41775,
+21648
+]
+
+# previous list of species
+# species_ids: [29672, 12848, 12520] # TODO - deprecated, replace all inputs with a file 
 
 ## input raster dataset
 input_raster: 'ict_2022.tif'
