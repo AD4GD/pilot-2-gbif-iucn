@@ -164,6 +164,8 @@ for (row, col), count in pixel_counts.items():
 # to exclude occurrences beyond input raster: apply nodata values mask from band 1 to band 2
 counts_array[original_band_data == nodata_value] = nodata_value
 
+# TODO - fix - decimal values are not saved in band 1 (all casted to integer)
+
 # write counts_array to band 2 of the new raster
 new_band = new_raster.GetRasterBand(2)
 new_band.WriteArray(counts_array)
