@@ -50,7 +50,7 @@ Categorías en el Catálogo Español de Especies Amenazadas (CEEA)).
 5. [Enrichment with GBIF datacubes](5_1_curl_datacube_request_placeholders.sh) ***(OPTIONAL)***. Considering all the data fetched from previous steps, using their knowledge and experience, users should be able to filter out species which are not suitable for their analysis for some reason (for example, users would like to compute habitat connectivity for the patches of decidious forests, while some species do not inhabit them).
 
 	- Filtered list of species can be used then to access [GBIF occurrence datacubes](https://techdocs.gbif.org/en/data-use/data-cubes) through the user-authorised download request.
-	- Downloaded csv file is [reprojected, regridded by the input raster dataset and written to the output occurrence raster file](5_2_gridding) (count of occurrence records is written to the new GeoTIFF).
+	- Downloaded csv file is [reprojected, regridded by the input raster dataset and written to the output occurrence raster file](5_2_gridding.py) (count of occurrence records is written to the new GeoTIFF).
 
 This optional output can be used to conduct comparative analysis between the occurrence of the target species and bio-climatic variables, land-cover types, types of habitats, verify species distribution models etc.
 
