@@ -26,10 +26,11 @@ print (output_path)
 
 """
 This block access GBIF Species Lookup tool through Species API: https://techdocs.gbif.org/en/openapi/v1/species#/Searching%20names/matchNames
-Species names derive from the user-defined CSV or XSLX file with scientific names.
+Species names derive from the user-defined CSV file with scientific names.
 
 This tool is able to provide fuzzy matching (to cover synonyms of species names and spelling error) between scientific names and GBIF Taxon IDs, but common names of species are not supported.
 
+Input: CSV with scientific names of species filled in by user (might include synonyms).
 Output: CSV with fixed scientific names and GBIF keys pointing out sub(species).
 """
 
@@ -99,6 +100,8 @@ def process_species_data(data):
         "confidence": data.get('confidence', 0),
         "note": data.get('note', ''),
         "matchType": data.get('matchType', ''),
+	    "class": data.get('class', None),
+	    "classKey": data.get('classKey', None)
         #"alternatives": data.get('alternatives', []) # to show alternative scientific names
     }
 
@@ -143,8 +146,8 @@ def lookup_species_from_csv(file_path, output_path):
     results_df.to_csv(output_path, index=False)
     print(f"Final results saved to {output_path}")
 
-# TODO - rewrite XLSX block to match CSV block
-# Overarching function if input file is xlsx
+# REDUNDANT - Overarching function if input file is xlsx, but only csv is left
+"""
 def lookup_species_from_xlsx(file_path, output_path):
     df = pd.read_excel(file_path)
     if df.empty:
@@ -173,7 +176,10 @@ def lookup_species_from_xlsx(file_path, output_path):
     final_results_df = pd.DataFrame(results)
     final_results_df.to_csv(output_path, index=False)
     print(f"Final results saved to {output_path}")
+"""
 
+# REDUNDANT - function to choose from csv or xlsx, but only csv is left
+"""
 # define function to choose from csv or xlsx formats
 def map_gbif_id(input_path):
     # define the file extension
@@ -185,13 +191,19 @@ def map_gbif_id(input_path):
         lookup_species_from_xlsx(input_path, output_path) # use different functions depending on the extension of input dataset
     else:
         print(f"Unsupported file type: {file_extension}. Please provide a .csv or .xlsx file.")
+"""
 
-# usage
-map_gbif_id(input_path)
+## Run overarching function for lookup
+# define the file extension
+_, file_extension = os.path.splitext(input_path) # split the filename to find the extension
+if file_extension.lower() == '.csv':
+    lookup_species_from_csv(input_path, output_path)
+else:
+    print(f"Unsupported file type: {file_extension}. Please provide a .csv file with scientific names of the species.")
 
 # ISSUES
 # 1. Subspecies which may be listed by user instead of species are not always assigned with correct GBIF IDs (sometimes with species IDs)
 # 2. Code performance is significantly lower than front-end tool for lookup implemented by GBIF (without Taxon IDs): https://www.gbif.org/tools/species-lookup
 # 3. Canonical name cannot be used for searching over GBIF Species Taxon IDs - wrong matches are possible. Only scientific name should be used
-# 4. Plenty of keys (IDs) in GBIF (key, nameKey, nubKey, speciesKey) which may be confused
+# 4. Plenty of keys (IDs) in GBIF (key, nameKey, nubKey, speciesKey) which might be confusing
 # 5. IUCN taxon ID of every species is different from unique id for this species written in the IUCN dataset embedded into GBIF backbone. Some redefining of IDs is conducted behind the ingestion of IUCN dataset into GBIF.

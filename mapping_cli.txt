@@ -1,5 +1,0 @@
-# without subarguments
-python mapping.py --fetch_IUCN yes output\filtered_datacube.csv output\enriched_datacube.csv --IUCN_habitat output\iucn_habitat.csv --IUCN_categories output\iucn_categories.csv --national_redlist input\red_lists\national_redlist.xlsx --regional_redlist input\red_lists\regional_redlist_api.csv --log_level DEBUG
-
-# with subarguments
-python mapping.py -fetch_IUCN yes output\filtered_datacube.csv output\enriched_datacube.csv -IUCN_habitat output\iucn_habitat.csv -IUCN_categories poutput\iucn_categories.csv -national_redlist input\red_lists\national_redlist.xlsx columns_to_join=Nombre científico actualizado  protection_category=Nombre científico actualizado  -regional_redlist path=input\red_lists\regional_redlist_api.csv columns_to_join=esp_cies_nom_cient_fic protection_category=esp_cies_nom_cient_fic -log_level DEBUG
