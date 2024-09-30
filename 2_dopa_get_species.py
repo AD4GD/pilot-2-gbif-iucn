@@ -5,15 +5,36 @@ import yaml
 import os
 import urllib.parse
 
-# Open configuration files
+"""
+
+This block:
+- fixes spelling of scientific names of species
+- fetches IUCN IDs of species
+- fetches all available columns by IUCN ID
+- concatenates it into the table with all available columns for each species
+
+INPUT
+- Table of species with scientific names filled in by user. One column is required ('scientificName').
+Format: CSV
+Mandatory: yes
+
+
+OUTPUT
+- Combined table with scientific names of species and columns from IUCN.
+Format: CSV
+Mandatory: yes
+
+"""
+
+# open configuration files
 with open('config.yaml', 'r') as file:
     config = yaml.safe_load(file)
 
-# Paths from the config file
+# paths from the config file
 input_dir = config['input_dir']
 output_dir = config['output_dir']
 
-# Input file from the config
+# input file from the config
 input_species_csv = os.path.join(input_dir, config['input_species'])
 output_iucn_csv = os.path.join(output_dir, config['iucn_csv'])
 
@@ -103,7 +124,7 @@ def fetch_IUCN_data_by_id(iucn_id):
         return None
 
 
-# Main function to fetch IUCN data using species names from the CSV
+# main function to fetch IUCN data using species names from the CSV
 def dopa_fetch_iucn(input_species_csv):
     """
     Fetches IUCN species data from the DOPA REST service for species listed in an input CSV file.
@@ -116,7 +137,7 @@ def dopa_fetch_iucn(input_species_csv):
     """
     df_list = []
 
-    # Read species names directly from the CSV
+    # read species names directly from the CSV
     try:
         species_df = pd.read_csv(input_species_csv)
         first_column = species_df.iloc[:, 0]
@@ -173,3 +194,7 @@ df_final = concatenated_df.reset_index()
 # save the final dataframe to a new CSV file
 df_final.to_csv(output_iucn_csv, index=False, sep='|')
 print (f"Data from IUCN has been fetched and concatenated for the species in {input_species_csv}")
+
+# TODO - to implement other scopes of IUCN assessment, continental and regional ones(not only global ones): https://www.iucnredlist.org/regions/european-red-list, https://www.iucnredlist.org/regions/mediterranean-red-lis
+
+# TODO - check Catalonian red list through Datos Gob ES API: https://datos.gob.es/es/apidata (not through Socrata API). SPARQL available: https://datos.gob.es/en/sparql

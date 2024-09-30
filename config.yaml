@@ -2,30 +2,27 @@
 input_dir: 'input'
 output_dir: 'output'
 output_dir_gbif: 'output/gbif_datacube'
-# TODO - output_dir_gbif duplicated with config_gbif.json
+# TODO - output_dir_gbif duplicated with config_gbif.json (remove later?)
 
 ## INPUT - CSV file uploaded by user which lists all potential species of interest (only scientific names allowed)
 
 # The list can contain reasonable amount of errors in spelling, extra symbols, but it must be exhaustive to map to 
 input_species: 'species_list.csv' # 'species_by_user.csv'
-# another option to list potential target species
-species_ids: [60354712, 20025, 13985, 29650, 70207409, 14018, 22679487, 29673, 12848, 12419, 12520, 12519, 3746, 23062, 29672, 41698, 41280, 41688, 136131, 61469, 61512, 61513, 157288, 7717, 21648, 1904, 55268, 90389138, 41775, 21648]
+# REDUNDANT - another option to list potential target species
+# species_ids: [60354712, 20025, 13985, 29650, 70207409, 14018, 22679487, 29673, 12848, 12419, 12520, 12519, 3746, 23062, 29672, 41698, 41280, 41688, 136131, 61469, 61512, 61513, 157288, 7717, 21648, 1904, 55268, 90389138, 41775, 21648]
 ## input raster dataset
 input_ds: 'ict_2022.tif'
-
 ## OUTPUT
 
 # file with concatenated data from IUCN accessed through DOPA REST services
 iucn_csv: 'concat_species_IUCN.csv'
 # file with fixed scientific names and enriched with GBIF ID keys
 gbif_key_csv: 'mapped_species_GBIF.csv'
-
 ## intermediate GBIF occurrence datacube - TODO - do we need to save them to YAML or somewhere else?
-gbif_datacube_csv: 'key_(8909809,2435261,2438793)_0024250-240906103802322.csv' # DO NOT CHANGE - dynamic variable (occurrence datacube fetched through GBIF API)
-gbif_taxon_key: "(8909809,2435261,2438793)" # DO NOT CHANGE - dynamic variable - taxon key of iterated object
+gbif_datacube_csv: 'key_(11592253)_0033345-240906103802322.csv' # DO NOT CHANGE - dynamic variable (occurrence datacube fetched through GBIF API)
+gbif_taxon_key: "(11592253)" # DO NOT CHANGE - dynamic variable - taxon key of iterated object
 # REDUNDANT
 # gbif_datacube_tif: '{input_raster_base}_gbif.{extension}' # DO NOT CHANGE - regridded occurrence datacube written to the new band of input raster
-
 ## output GeoTIFF file
 ## REDUNDANT
 # output_raster: "{input_raster_base}_gbif.{extension}" # TODO - to include taxon key

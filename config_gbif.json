@@ -1,13 +1,15 @@
 {
-  "_comment": "This configuration block is for fetching data from GBIF occurrence datacube.",
+  "_comment": "This configuration block is for fetching data from GBIF occurrence datacube. Replace credentials with your own.",
   "country": "ES",
-  "classKey": 11418114,
-  "speciesKey": [8909809, 2435261, 2438793],
+  "classKey": 359,
+  "speciesKey": null,
   "min_year": 1980,
-  "notificationEmail": "vitkryukov@gmail.com",
-  "username": "vitkrk",
-  "password": "Jql!8d4&wLRn0Q",
+  "notificationEmail": "user@gmail.com",
+  "username": "user_name",
+  "password": "user_password",
   "output_dir_gbif": "output/gbif_datacube",
   "gbif_query_classes": "5_1_query_datacube_classes.json",
-  "gbif_query_species": "5_1_query_datacube_species.json"
+  "gbif_query_species": "5_1_query_datacube_species.json",
+  "gbif_query_classes_metadata": "5_1_query_datacube_classes_licence.json",
+  "gbif_query_species_metadata": "5_1_query_datacube_species_licence.json"
 }

@@ -29,7 +29,7 @@ This tool is solving the task of the extraction of available data for potential 
 
 Workflow is being implemented in a few steps: ![diagram](visualisation/workflow.png)
 
-1. [GBIF-enrichment](1_gbif_lookup.py) ***(MANDATORY)***
+1. [GBIF-enrichment](_1_gbif_lookup.py) ***(MANDATORY)***
 	- [GBIF Species API (GET /species/match)](https://techdocs.gbif.org/en/openapi/v1/species#/Searching%20names/matchNames) to fix the custom list of scientific names of species
 	- [GBIF Species API (GET /species/search)](https://techdocs.gbif.org/en/openapi/v1/species#/Searching%20names/searchNames) to fetch GBIF unique keys (IDs).
 

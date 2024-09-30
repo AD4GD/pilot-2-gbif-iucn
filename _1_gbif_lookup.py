@@ -4,6 +4,38 @@ import requests
 import time
 import yaml
 
+"""
+This block access GBIF Species Lookup tool through Species API: https://www.gbif.org/tools/species-lookup
+Species names derive from the user-defined CSV file with scientific names.
+
+This tool is able to provide fuzzy matching (to cover synonyms of species names and spelling errors) between scientific names and GBIF Taxon IDs, but common names of species are not supported.
+
+INPUT
+- Table with scientific names of species filled in by user.
+Format: CSV
+Mandatory: yes
+
+OUTPUT
+- Table with fixed scientific names and GBIF keys pointing out sub(species).
+Format: CSV
+Mandatory: yes
+
+ISSUES AND LIMITATIONS
+- Subspecies which may be listed by user instead of species are not always assigned with correct GBIF IDs (sometimes with species IDs)
+- Code performance is significantly lower than front-end tool for lookup implemented by GBIF (without Taxon IDs): https://www.gbif.org/tools/species-lookup
+- Canonical name cannot be used for searching over GBIF Species Taxon IDs - wrong matches are possible. Only scientific name should be used
+- Plenty of keys (IDs) in GBIF (key, nameKey, nubKey, speciesKey) which might be confusing
+- IUCN taxon ID of every species is different from unique id for this species written in the IUCN dataset embedded into GBIF backbone. Some redefining of IDs is conducted behind the ingestion of IUCN dataset into GBIF.
+
+HELP
+- GBIF Species Lookup tool to fix scientific names: 
+https://www.gbif.org/tools/species-lookup (GUI)
+https://techdocs.gbif.org/en/openapi/v1/species#/Searching%20names/matchNames (GBIF API)
+- GBIF API to fetch GBIF key by scientific name: https://techdocs.gbif.org/en/openapi/v1/species#/Searching%20names/searchNames
+
+"""
+
+
 # open configuration files
 with open('config.yaml', 'r') as file:
     config = yaml.safe_load(file)
@@ -24,15 +56,6 @@ output_path = os.path.join(output_dir, output_filename)
 output_path = os.path.normpath(output_path)
 print (output_path)
 
-"""
-This block access GBIF Species Lookup tool through Species API: https://techdocs.gbif.org/en/openapi/v1/species#/Searching%20names/matchNames
-Species names derive from the user-defined CSV file with scientific names.
-
-This tool is able to provide fuzzy matching (to cover synonyms of species names and spelling error) between scientific names and GBIF Taxon IDs, but common names of species are not supported.
-
-Input: CSV with scientific names of species filled in by user (might include synonyms).
-Output: CSV with fixed scientific names and GBIF keys pointing out sub(species).
-"""
 
 # to fix scientific names of species
 def fix_species_name(species_name):
@@ -201,9 +224,3 @@ if file_extension.lower() == '.csv':
 else:
     print(f"Unsupported file type: {file_extension}. Please provide a .csv file with scientific names of the species.")
 
-# ISSUES
-# 1. Subspecies which may be listed by user instead of species are not always assigned with correct GBIF IDs (sometimes with species IDs)
-# 2. Code performance is significantly lower than front-end tool for lookup implemented by GBIF (without Taxon IDs): https://www.gbif.org/tools/species-lookup
-# 3. Canonical name cannot be used for searching over GBIF Species Taxon IDs - wrong matches are possible. Only scientific name should be used
-# 4. Plenty of keys (IDs) in GBIF (key, nameKey, nubKey, speciesKey) which might be confusing
-# 5. IUCN taxon ID of every species is different from unique id for this species written in the IUCN dataset embedded into GBIF backbone. Some redefining of IDs is conducted behind the ingestion of IUCN dataset into GBIF.

@@ -1,0 +1,8 @@
+{
+  "sendNotification": true,
+  "notificationAddresses": [
+    "{{notificationEmail}}"
+  ],
+  "format": "SQL_TSV_ZIP",
+  "sql": "SELECT datasetKey, license, COUNT(*) AS n FROM occurrence WHERE iucnRedListCategory IN ('NT','VU','EN','CR','EW','EX','LC') AND occurrenceStatus = 'PRESENT' AND countryCode = '{{country}}' AND \"year\" >= {{year}} AND speciesKey IN {{speciesKey}} AND hasCoordinate = TRUE AND (coordinateUncertaintyInMeters <= 1000 OR coordinateUncertaintyInMeters IS NULL) AND speciesKey IS NOT NULL AND NOT ARRAY_CONTAINS(issue, 'ZERO_COORDINATE') AND NOT ARRAY_CONTAINS(issue, 'COORDINATE_OUT_OF_RANGE') AND NOT ARRAY_CONTAINS(issue, 'COORDINATE_INVALID') AND NOT ARRAY_CONTAINS(issue, 'COUNTRY_COORDINATE_MISMATCH') AND \"month\" IS NOT NULL GROUP BY datasetKey, license"
+}

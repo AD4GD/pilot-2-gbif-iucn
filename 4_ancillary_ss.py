@@ -2,12 +2,16 @@
 import pandas as pd
 import argparse
 
+# import own function to fix scientific names
+from _1_gbif_lookup import fix_species_name
+# TODO - implement fixing scientific names
+
 """
 24/09/2024
 Attempt to bring tabular data for the custom of list of species from ancillary sources (national and regional Red Lists) through a command line tool.
 
 INPUT
-- List of species with scientifc names (CSV format)
+- List of species with scientific names (CSV format)
 Mandatory: yes
 
 - Ancillary sources, for example national and regional Red Lists (CSV or XLSX format.)
@@ -18,8 +22,6 @@ OUTPUT
 Mandatory: yes
 
 """
-
-# TODO - needs to be rewritten as the vice-versa direction of workflow is more meaningful (enriching list of species with other data sources and extracting datacube for the subset of species)
 
 # for compound arguments with subarguments: to parse pairs of key (subargument) and value (value of subargument)
 class ValidateKeyValuePairs(argparse.Action):
@@ -239,24 +241,6 @@ if fetch_iucn == 'yes': # if user specified to fetch data from IUCN
 else:
     print ("Not fetching IUCN data.")
 """
-
-# TODO for habitats - perform automatically through DOPA-managed requests to IUCN database OR IUCN API v.4 once it is openly published
-# https://dopa-services.jrc.ec.europa.eu/services/services/?dataset_name=IUCN_NSP
-# functions:
-# get_dopa_species
-# get_dopa_species_list_category
-# get_dopa_species_list_habitat
-# get_dopa_species_list_threat
-
-# TODO the same for IUCN continental and regional categories (not only global ones): https://www.iucnredlist.org/regions/european-red-list, https://www.iucnredlist.org/regions/mediterranean-red-lis
-
-# TODO - implement lists for Spain and Catalonia:
-# https://www.miteco.gob.es/es/biodiversidad/temas/conservacion-de-especies/especies-proteccion-especial/ce-proteccion-listado-situacion.html
-# https://analisi.transparenciacatalunya.cat/en/Medi-Ambient/Esp-cies-protegides-i-amena-ades-de-la-fauna-aut-c/i8eg-aynu/about_data 
-# https://datos.gob.es/en/catalogo/a09002970-especies-protegidas-y-amenazadas-de-la-fauna-autoctona-de-cataluna (another one)
-# TODO - Catalonian red list through API: https://datos.gob.es/es/apidata. SPARQL available: https://datos.gob.es/en/sparql
-# TODO - check JSON/RDF for Catalonian red list. Seems like there is also no valud unique id of species compliant with oter vocabularies
-
 
 # 2. HARMONISE REGIONAL REDLIST
 
