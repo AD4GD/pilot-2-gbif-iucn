@@ -19,8 +19,8 @@ iucn_csv: 'concat_species_IUCN.csv'
 # file with fixed scientific names and enriched with GBIF ID keys
 gbif_key_csv: 'mapped_species_GBIF.csv'
 ## intermediate GBIF occurrence datacube - TODO - do we need to save them to YAML or somewhere else?
-gbif_datacube_csv: 'key_(11592253)_0033345-240906103802322.csv' # DO NOT CHANGE - dynamic variable (occurrence datacube fetched through GBIF API)
-gbif_taxon_key: "(11592253)" # DO NOT CHANGE - dynamic variable - taxon key of iterated object
+gbif_datacube_csv: 'key_(2435261,5218878)_0037994-240906103802322.csv' # DO NOT CHANGE - dynamic variable (occurrence datacube fetched through GBIF API)
+gbif_taxon_key: "(2435261,5218878)" # DO NOT CHANGE - dynamic variable - taxon key of iterated object
 # REDUNDANT
 # gbif_datacube_tif: '{input_raster_base}_gbif.{extension}' # DO NOT CHANGE - regridded occurrence datacube written to the new band of input raster
 ## output GeoTIFF file
