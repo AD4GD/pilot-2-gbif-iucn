@@ -71,3 +71,7 @@ This tool is partly completed, but a few improvements are planned to be done:
 - [Checklistbank tools](https://www.checklistbank.org/tools/name-match-async) do not seem stable enough to support automatic on-fly scraping of matches between GBIF and IUCN keys. Therefore, the static database derived from this tool with mapped IUCN and GBID keys (unique IDs) for threatened species is stored separately for this workflow. 
 - DOPA REST services are not supporting species whose distribution data is not mapped on IUCN (for example, [*Emys orbicularis*](https://www.iucnredlist.org/species/7717/97292665)).
 - IUCN services do not support fetching data for particular sub-species, therefore only fetching data at species level is available.
+
+#### Acknowledgements
+
+The work has been co-funded by the European Union and the United Kingdom under the Horizon Europe [AD4GD Project](https://www.ogc.org/initiatives/ad4gd/).
