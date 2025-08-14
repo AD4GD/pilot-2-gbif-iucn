@@ -27,7 +27,7 @@ Mandatory: yes
 """
 
 # open configuration files
-with open('config.yaml', 'r') as file:
+with open('config/config.yaml', 'r') as file:
     config = yaml.safe_load(file)
 
 # paths from the config file

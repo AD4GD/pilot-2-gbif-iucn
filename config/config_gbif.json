@@ -1,0 +1,14 @@
+{
+  "_comment": "This configuration block is for fetching data from GBIF occurrence datacube. Replace credentials with your own.",
+  "_comment_2": "The 'month' key accepts two values: 'any' or 'not_null'",
+  "country": "ES",
+  "classKey": 11418114,
+  "speciesKey": [2441454,2441461,7062174,6156781,7190922],
+  "min_year": 1980,
+  "month": "any",
+  "output_dir_gbif": "output/gbif_datacube",
+  "gbif_query_classes": "config/5_1_query_datacube_classes.json",
+  "gbif_query_species": "config/5_1_query_datacube_species.json",
+  "gbif_query_classes_metadata": "config/5_1_query_datacube_classes_licence.json",
+  "gbif_query_species_metadata": "config/5_1_query_datacube_species_licence.json"
+}

@@ -1,27 +1,36 @@
 import pandas as pd
 import os
+from utils import load_yaml
 
 class GBIF_IUCN_ScientificName_Mapper:
     """
     Maps GBIF and IUCN data on the basis of scientific names.
     """
 
-    def __init__(self, gbif_csv_path:str, iucn_csv_path:str , gbif_dict:dict, iucn_dict:dict, add_prefix:bool=True):
+    def __init__(self, config_path:str, gbif_csv_path:str, iucn_csv_path:str , gbif_dict:dict, iucn_dict:dict, add_prefix:bool=True):
         """
         Initializes the class with the GBIF and IUCN dataframes.
 
         Args:
+            config_path (str): Path to the configuration file.
             gbif_csv_path (str): Path to the GBIF data CSV file.
             iucn_csv_path (str): Path to the IUCN data CSV file.
+            gbif_dict (dict): Dictionary containing the GBIF columns to filter out.
+            iucn_dict (dict): Dictionary containing the IUCN columns to filter out.
+            add_prefix (bool): Whether to add a prefix to the columns.
         """
+        # paths from the config file
+        self.config = load_yaml(config_path)
+        self.input_dir = self.config['input_dir']
+        self.output_dir = self.config['output_dir']  
 
         gbif_index = list(gbif_dict.keys())[0]
         iucn_index = list(iucn_dict.keys())[0]
-        # Renaming the columns to make them consistent for joining later.
+        # renaming columns to make them consistent for joining later
         self.gbif_df = pd.read_csv(gbif_csv_path, sep=',').set_index(gbif_index)
         self.iucn_df = pd.read_csv(iucn_csv_path, sep='|').set_index(iucn_index)
 
-        # filtering out the columns we don't care about
+        # filtering out the columns we don't need
         if gbif_dict[gbif_index] is not None:
            self.gbif_df = self.gbif_df.drop(columns=gbif_dict[gbif_index])
         if iucn_dict[iucn_index] is not None:
@@ -40,7 +49,7 @@ class GBIF_IUCN_ScientificName_Mapper:
             pd.DataFrame: Mapped IUCN and GBIF data in a DataFrame.
             pd.DataFrame: Unmatched species in a DataFrame
         """
-        # Mapping GBIF and IUCN data on the basis of scientific names (canonicalName and binomial - now the index)
+        # mapping GBIF and IUCN data on the basis of scientific names (canonicalName and binomial - now the index)
         mapped_df = pd.merge(self.gbif_df, self.iucn_df, left_index=True, right_index=True, how='inner')
 
         # get the unmatched iucn records
@@ -62,10 +71,9 @@ class GBIF_IUCN_ScientificName_Mapper:
         iucn_unmatched_records.to_csv(os.path.join(output_path, 'IUCN_unmatched_species.csv'), index=True, index_label='scientificName_unmatched')
 
 if __name__ == '__main__':
-    gbif_csv_path = '.\\output\\mapped_species_GBIF.csv'
-    iucn_csv_path = '.\\output\\concat_species_IUCN.csv'
 
-
+    config_path = "config/config.yaml"
+    config = load_yaml(config_path)
     # dict = {index col: [list of column names we want to filter out]}
     # for gbif all except gbifKey,acceptedUsageKey and canonicalName (this is the index)
     gbif_dict = {'canonicalName':['gbifKey', 'acceptedUsageKey']}
@@ -73,12 +81,21 @@ if __name__ == '__main__':
     iucn_dict = {'binomial':None}
     # TODO add addtional columns to ignore for gbif and iucn in the respective dictionaries above
 
-    mapping = GBIF_IUCN_ScientificName_Mapper(gbif_csv_path, iucn_csv_path, gbif_dict, iucn_dict, add_prefix=True)
-    (mapped_df,iucn_unmatched_records)= mapping.map_data()
+    gbif_csv_path = os.path.join(config['output_dir'], "mapped_species_GBIF.csv")
+    iucn_csv_path = os.path.join(config['output_dir'], "concat_species_IUCN.csv")
+
+    mapping = GBIF_IUCN_ScientificName_Mapper(
+        config_path,
+        gbif_csv_path,
+        iucn_csv_path,
+        gbif_dict,
+        iucn_dict,
+        add_prefix=True)
+    (mapped_df,iucn_unmatched_records) = mapping.map_data()
     
     # print the unmatched species in the IUCN data
     print(f"Unmatched species: {iucn_unmatched_records.index.values}")
 
     #write mapped data to csv
-    mapping.save_mapped_data_to_csv(mapped_df, iucn_unmatched_records, '.\\output')
+    mapping.save_mapped_data_to_csv(mapped_df, iucn_unmatched_records, output_path='output')
     print(mapped_df.head())

@@ -32,17 +32,10 @@ import re
 import yaml
 import warnings
 import math
-
-# REDUNDANT - replaced with configuration file
-"""
-# paths to input and output files
-input_dir = 'input/'
-output_dir = 'output/'
-input_ds = 'ict_2022.tif'
-"""
+import rasterio
 
 # load configuration from YAML file
-with open('config.yaml', 'r') as file:
+with open('config/config.yaml', 'r') as file:
     config = yaml.safe_load(file)
 
 # load paths from config file
@@ -53,9 +46,6 @@ output_dir_gbif = config.get('output_dir_gbif')
 # load filenames from config file
 input_ds = config.get('input_ds')
 gbif_datacube_csv = config.get('gbif_datacube_csv')
-""" # REDUNDANT
-# gbif_output_datacube = config.get('gbif_datacube_csv') # the same
-"""
 
 # load current taxon key(s) 
 taxon_key = config.get('gbif_taxon_key')
@@ -336,20 +326,33 @@ for (row, col), count in pixel_counts_df.itertuples():
     counts_array[row, col] = count
 
 
-# to exclude occurrences beyond input raster: apply nodata values mask from original raster band to count array
-nodata_value = raster_band.GetNoDataValue()  # getnodata value from the original raster
-original_band_data = raster_band.ReadAsArray()  # read original band data to get nodata mask
-counts_array[original_band_data == nodata_value] = nodata_value  # apply nodata mask
+# Open the original raster to read nodata and mask
+with rasterio.open(raster_path) as src:
+    nodata_value = src.nodata
+    mask = src.read(1, masked=True).mask  # True where nodata
 
-# write counts_array to the first and only band of the output raster
-output_band = output_raster.GetRasterBand(1)
-output_band.WriteArray(counts_array)
-output_band.SetNoDataValue(nodata_value)  # set the same nodata values
+# Apply mask to counts_array
+counts_array = np.where(mask, nodata_value, counts_array)
+
+# Write output raster
+with rasterio.open(
+    output_raster_path,
+    "w",
+    driver="GTiff",
+    height=counts_array.shape[0],
+    width=counts_array.shape[1],
+    count=1,
+    dtype=counts_array.dtype,
+    crs=src.crs,
+    transform=src.transform,
+    nodata=nodata_value
+) as dst:
+    dst.write(counts_array, 1)
 
 print(f"Output raster dataset has been written to {output_raster_path}.")
 
 # save and close the output raster
-output_band.FlushCache()
+# output_band.FlushCache()
 output_raster.FlushCache()
 output_raster = None  # close dataset
 

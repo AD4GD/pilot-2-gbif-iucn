@@ -4,6 +4,14 @@
 
 # outputs - too bulky
 /output
+/output/gbif_datacube/
+
+# extra scripts
+verification.py
+
+# other data
+miramon/
+bucket_ext/
 
 # executable to clean repository
 bfg-1.14.0.jar
@@ -19,6 +27,16 @@ gbif_datacube_instructions.txt
 
 # ignore virtual documents
 .virtual_documents/
+
+# ignore occurrence datasets
+input/local_data_merged.gpkg
+input/species_occurrence.csv
+input/GBIF_2_IUCN.zip
+input/datacube.csv
+input/connectivity/
+input/inaturalist/
+
+.env
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

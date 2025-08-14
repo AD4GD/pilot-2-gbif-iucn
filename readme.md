@@ -29,7 +29,7 @@ This tool is solving the task of the extraction of available data for potential 
 
 Workflow is being implemented in a few steps: ![diagram](visualisation/workflow.png)
 
-1. [GBIF-enrichment](_1_gbif_lookup.py) ***(MANDATORY)***
+1. [GBIF-enrichment](gbif_lookup.py) ***(MANDATORY)***
 	- [GBIF Species API (GET /species/match)](https://techdocs.gbif.org/en/openapi/v1/species#/Searching%20names/matchNames) to fix the custom list of scientific names of species
 	- [GBIF Species API (GET /species/search)](https://techdocs.gbif.org/en/openapi/v1/species#/Searching%20names/searchNames) to fetch GBIF unique keys (IDs).
 
@@ -72,6 +72,11 @@ This tool is partly completed, but a few improvements are planned to be done:
 - DOPA REST services are not supporting species whose distribution data is not mapped on IUCN (for example, [*Emys orbicularis*](https://www.iucnredlist.org/species/7717/97292665)).
 - IUCN services do not support fetching data for particular sub-species, therefore only fetching data at species level is available.
 
+### IUCN API v4
+
+- Obtain IUCN API v4 token for non-commercial usage:
+[sign-up](https://api.iucnredlist.org/users/sign_up) or [sign-in](https://api.iucnredlist.org/users/sign_in)
+-
 #### Acknowledgements
 
 The work has been co-funded by the European Union and the United Kingdom under the Horizon Europe [AD4GD Project](https://www.ogc.org/initiatives/ad4gd/).

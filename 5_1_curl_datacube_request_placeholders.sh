@@ -3,6 +3,7 @@
 # "C:\Users\kriukovv\AppData\Local\Programs\Git\bin\sh.exe" 5_1_curl_datacube_request_placeholders.sh (use your local path for bash.exe)
 # if it doesn't work, try "C:\Users\kriukovv\AppData\Local\Programs\Git\bin\bash.exe" 5_1_curl_datacube_request_placeholders.sh
 # in Powershell: & "C:\Users\kriukovv\AppData\Local\Programs\Git\bin\sh.exe" -- 5_1_curl_datacube_request_placeholders.sh
+# Ubuntu: ./5_1_curl_datacube_request_placeholders.sh
 
 # required: to install jq, yq and curl 
 # on Windows, jq installed manually as executable through official page (https://jqlang.github.io/jq/download/) and editing environment variables-path
@@ -39,22 +40,35 @@
 # To check outputs on GBIF, cancel requests etc: https://www.gbif.org/user/download
 
 
+# load .env into the current shell
+source .env
+
+
 ## 1. PROCESSING: first datacube with occurrence records
 
 ## Extract year of record, classKey and credentials from the configuration file and prepare the JSON request
-# assign the variables from config_gbif.json
-classKey=$(jq -r '.classKey' config_gbif.json) # -r extracts raw output without any quotes
-speciesKey=$(jq -r '.speciesKey' config_gbif.json)
-country=$(jq -r '.country' config_gbif.json)
-year=$(jq -r '.min_year' config_gbif.json)
-notificationEmail=$(jq -r '.notificationEmail' config_gbif.json)
-username=$(jq -r '.username' config_gbif.json)
-password=$(jq -r '.password' config_gbif.json)
-output_dir_gbif=$(jq -r '.output_dir_gbif' config_gbif.json)
-gbif_query_classes=$(jq -r '.gbif_query_classes' config_gbif.json) # to choose query to extract classes
-gbif_query_species=$(jq -r '.gbif_query_species' config_gbif.json) # to choose query to extract species
-gbif_query_classes_metadata=$(jq -r '.gbif_query_classes_metadata' config_gbif.json) # to choose query to extract licence metadata for classes
-gbif_query_species_metadata=$(jq -r '.gbif_query_species_metadata' config_gbif.json) # to choose query to extract licence metadata for species
+# assign the variables from configuration
+config_dir="config"
+CONFIG_MAIN="config/config.yaml"
+CONFIG_GBIF="config/config_gbif.json"
+CONFIG_REQUEST="config/prepared_request.json"
+CONFIG_REQUEST_META="config/prepared_request_metadata.json"
+
+classKey=$(jq -r '.classKey' "$CONFIG_GBIF") # -r extracts raw output without any quotes
+speciesKey=$(jq -r '.speciesKey' "$CONFIG_GBIF")
+country=$(jq -r '.country' "$CONFIG_GBIF")
+year=$(jq -r '.min_year' "$CONFIG_GBIF")
+month=$(jq -r '.month' "$CONFIG_GBIF")
+output_dir_gbif=$(jq -r '.output_dir_gbif' "$CONFIG_GBIF")
+gbif_query_classes=$(jq -r '.gbif_query_classes' "$CONFIG_GBIF") # to choose query to extract classes
+gbif_query_species=$(jq -r '.gbif_query_species' "$CONFIG_GBIF") # to choose query to extract species
+gbif_query_classes_metadata=$(jq -r '.gbif_query_classes_metadata' "$CONFIG_GBIF") # to choose query to extract licence metadata for classes
+gbif_query_species_metadata=$(jq -r '.gbif_query_species_metadata' "$CONFIG_GBIF") # to choose query to extract licence metadata for species
+
+# retrieve credentials from the configuration
+notificationEmail="$NOTIFICATION_EMAIL"
+username="$USERNAME"
+password="$PASSWORD"
 
 # if multiple classes - converting the list from json file to comma-separated list, otherwise bring it just as a string (for SQL syntax)
 classKey_to_edit=$(jq -r '
@@ -63,7 +77,7 @@ classKey_to_edit=$(jq -r '
   else
     .classKey | tostring
   end
-' config_gbif.json)
+' "$CONFIG_GBIF")
 # remove any leading or trailing whitespace
 classKey_to_edit=$(echo "$classKey_to_edit" | xargs)
 # format the speciesKey correctly for SQL (in parentheses)
@@ -77,7 +91,7 @@ speciesKey_to_edit=$(jq -r '
   else
     .speciesKey | tostring
   end
-' config_gbif.json)
+' "$CONFIG_GBIF")
 # remove any leading or trailing whitespace
 speciesKey_to_edit=$(echo "$speciesKey_to_edit" | xargs)
 # format the speciesKey correctly for SQL (in parentheses)
@@ -89,10 +103,17 @@ speciesKey="($speciesKey_to_edit)"
 # to use further: normalize speciesKey by converting to lowercase and removing parentheses
 norm_speciesKey=$(echo "$speciesKey" | tr '[:upper:]' '[:lower:]' | tr -d '()')
 
+if [[ "$month" == "any" ]]; then
+  month=""
+else
+  month=' AND "month" IS NOT NULL'
+fi
+
 # echo the variables to check the values
 echo "Class key: $classKey"
 echo "Species key: $speciesKey"
 echo "Country code: $country"
+echo "Month: $month"
 echo "Minimum year of record: $year"
 echo "Notification email: $notificationEmail"
 echo "Username: $username"
@@ -126,36 +147,39 @@ jq --arg classKey "$classKey" \
    --arg country "$country" \
    --arg year "$year" \
    --arg notificationEmail "$notificationEmail" \
+   --arg month "$month" \
    '
-   .notificationAddresses[0] |= $notificationEmail |
-   .sql |= sub("\\{\\{year\\}\\}"; $year) |
-   .sql |= sub("\\{\\{classKey\\}\\}"; $classKey) |
-   .sql |= sub("\\{\\{speciesKey\\}\\}"; $speciesKey) |
-   .sql |= sub("\\{\\{country\\}\\}"; $country)
-   ' "$gbif_query" > prepared_request.json
+   .notificationAddresses[0] = $notificationEmail |
+   .sql = (.sql
+     | gsub("\\{\\{year\\}\\}"; $year)
+     | gsub("\\{\\{classKey\\}\\}"; $classKey)
+     | gsub("\\{\\{speciesKey\\}\\}"; $speciesKey)
+     | gsub("\\{\\{country\\}\\}"; $country)
+     | gsub("\\{\\{month\\}\\}"; $month)
+   )
+   ' "$gbif_query" > "$CONFIG_REQUEST"
 
 # debug: echo the prepared JSON request to check if it looks correct
 echo "Prepared request:"
-cat prepared_request.json # concacenate and print
+cat "$CONFIG_REQUEST" # concacenate and print
 printf '%0.s-' {1..40}; printf '\n' # %0.s means to print - without any arguments
 
 # use curl to send the request
 response=$(curl --include \
      --user "$username:$password" \
      --header "Content-Type: application/json" \
-     --data @prepared_request.json \
+     --data @"$CONFIG_REQUEST" \
      https://api.gbif.org/v1/occurrence/download/request)
 
 # \ is used to continue the command on the next line
 
 # debug: print the entire HTTP response
-echo "Full HTTP Response:"
+echo "Full HTTP response:"
 echo -e "\n$response"
 printf '%0.s-' {1..40}; printf '\n'
 
 # TODO - if http code == 40*, raise error and break, if == 20* - keep running.
 # probably should be done through saving headers as temporary txt and then extract http code from there
-
 
 # to extract the download code
 download_code=$(echo "$response" | tail -n 1)
@@ -163,7 +187,7 @@ download_code=$(echo "$response" | tail -n 1)
 # previous expression: extract the download code from the last non-empty line of the response body (isolates the part of the response that starts after download/)
 # download_code=$(echo "$response" | grep -oP 'download/\K[^\"]+')
 
-echo -e "\nDownload Code: $download_code"
+echo -e "\nDownload code: $download_code"
 
 # use the download code to check the status and download the data
 if [[ "$download_code" != "null" ]]; then
@@ -220,7 +244,7 @@ if [[ "$download_code" != "null" ]]; then
         echo "Unzipping completed."
 
         # find the .csv file
-        csv_file=$(find "${output_dir_gbif}/temp_unzip" -type f -name "*.csv")
+        csv_file=$(find "${output_dir_gbif}/temp_unzip" -type f -name "*.csv" | head -n 1)
 
         # extract the base name of the CSV file (without directory and extension)
         base_csv_name=$(basename "$csv_file")
@@ -263,7 +287,7 @@ else
 fi
 
 # delete the intermediate json file with the prepared request
-rm "prepared_request.json"
+rm "$CONFIG_REQUEST"
 
 # TODO to check what other statuses might be (apart from mentioned above)
 # TODO to consider usage of Schannel on Windows
@@ -271,10 +295,14 @@ rm "prepared_request.json"
 # * schannel: failed to decrypt data, need more data
 
 # use yq to update the filename of gbif datacube in the YAML file
-yq eval ".gbif_datacube_csv = \"${filename%.zip}.csv\"" -i config.yaml
+yq eval ".gbif_datacube_csv = \"${filename%.zip}.csv\"" -i "$CONFIG_MAIN"
 
+echo 1
+echo 1
+echo 1
+echo "$taxonkey"
 # use yq to write the taxon key to the YAML file
-yq eval ".gbif_taxon_key = \"${taxonKey}\"" -i config.yaml
+yq eval ".gbif_taxon_key = \"${taxonKey}\"" -i "$CONFIG_MAIN"
 
 ## 2. PROCESSING: second datacube, fetching data sources and their licence metadata - https://techdocs.gbif.org/en/data-use/b-cubed/generate-cube-databricks#generating-cube-metadata
 # It is fetched through the separate download code.
@@ -286,19 +314,23 @@ jq --arg classKey "$classKey" \
    --arg country "$country" \
    --arg year "$year" \
    --arg notificationEmail "$notificationEmail" \
+   --arg month "$month" \
    '
-   .notificationAddresses[0] |= $notificationEmail |
-   .sql |= sub("\\{\\{year\\}\\}"; $year) |
-   .sql |= sub("\\{\\{classKey\\}\\}"; $classKey) |
-   .sql |= sub("\\{\\{speciesKey\\}\\}"; $speciesKey) |
-   .sql |= sub("\\{\\{country\\}\\}"; $country)
-   ' "$gbif_query_metadata" > prepared_request_metadata.json
+   .notificationAddresses[0] = $notificationEmail |
+   .sql = (.sql
+     | gsub("\\{\\{year\\}\\}"; $year)
+     | gsub("\\{\\{classKey\\}\\}"; $classKey)
+     | gsub("\\{\\{speciesKey\\}\\}"; $speciesKey)
+     | gsub("\\{\\{country\\}\\}"; $country)
+     | gsub("\\{\\{month\\}\\}"; $month)
+   )
+   ' "$gbif_query_metadata" > "$CONFIG_REQUEST_META"
 
 # prepare curl query
 response_metadata=$(curl --include \
      --user "$username:$password" \
      --header "Content-Type: application/json" \
-     --data @prepared_request_metadata.json \
+     --data @"$CONFIG_REQUEST_META" \
      https://api.gbif.org/v1/occurrence/download/request)
 
 
@@ -350,7 +382,7 @@ if [[ "$download_code_licence" != "null" ]]; then
         echo "Unzipping completed."
 
         # find the .csv file
-        csv_file=$(find "${output_dir_gbif}/temp_unzip" -type f -name "*.csv")
+        csv_file=$(find "${output_dir_gbif}/temp_unzip" -type f -name "*.csv" | head -n 1)
 
         # rename csv file, adding the taxon key
         mv "$csv_file" "${output_dir_gbif}/key_${taxonKey}_metadata_licence.csv"
@@ -375,6 +407,6 @@ else
 fi
 
 # delete the intermediate json file with the prepared request
-rm "prepared_request_metadata.json"
+rm "$CONFIG_REQUEST_META"
 
 # TODO - to write the most strict licence policy to the corresponding value in .json metadata
