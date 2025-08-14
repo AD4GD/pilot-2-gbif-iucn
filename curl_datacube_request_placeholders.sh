@@ -1,9 +1,9 @@
 ## DEPENDENCIES
 # to run this block in Anaconda prompt on local machine (Windows):
-# "C:\Users\kriukovv\AppData\Local\Programs\Git\bin\sh.exe" 5_1_curl_datacube_request_placeholders.sh (use your local path for bash.exe)
-# if it doesn't work, try "C:\Users\kriukovv\AppData\Local\Programs\Git\bin\bash.exe" 5_1_curl_datacube_request_placeholders.sh
-# in Powershell: & "C:\Users\kriukovv\AppData\Local\Programs\Git\bin\sh.exe" -- 5_1_curl_datacube_request_placeholders.sh
-# Ubuntu: ./5_1_curl_datacube_request_placeholders.sh
+# "C:\Users\kriukovv\AppData\Local\Programs\Git\bin\sh.exe" curl_datacube_request_placeholders.sh (use your local path for bash.exe)
+# if it doesn't work, try "C:\Users\kriukovv\AppData\Local\Programs\Git\bin\bash.exe" curl_datacube_request_placeholders.sh
+# in Powershell: & "C:\Users\kriukovv\AppData\Local\Programs\Git\bin\sh.exe" -- curl_datacube_request_placeholders.sh
+# Ubuntu: ./curl_datacube_request_placeholders.sh
 
 # required: to install jq, yq and curl 
 # on Windows, jq installed manually as executable through official page (https://jqlang.github.io/jq/download/) and editing environment variables-path
