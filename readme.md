@@ -6,9 +6,9 @@ This tool is solving the task of the extraction of available data for potential 
 
 ### Input data
 
-1. List of scientific names of potential target sub(species) (another option of species list accessed through command-line is yet to be implemented)
+1. List of scientific names of potential target sub(species)
 - Mandatory: yes
-- Format: CSV/XLSX or command line string
+- Format: CSV/XLSX
 2. Ancillary lists for the potential target sub(species) (for example, national or regional Red Lists)
 - Mandatory: no
 - Format: CSV/XLSX
@@ -40,8 +40,8 @@ For Python scripts, the main parameters of input and output datasets are listed 
 ***MANDATORY***
 
 This block will update the list of species with the valid GBIF keys of species:
-	- [GBIF Species API (GET /species/match)](https://techdocs.gbif.org/en/openapi/v1/species#/Searching%20names/matchNames) to fix the custom list of scientific names of species
-	- [GBIF Species API (GET /species/search)](https://techdocs.gbif.org/en/openapi/v1/species#/Searching%20names/searchNames) to fetch GBIF unique keys (IDs)
+- [GBIF Species API (GET /species/match)](https://techdocs.gbif.org/en/openapi/v1/species#/Searching%20names/matchNames) to fix the custom list of scientific names of species
+- [GBIF Species API (GET /species/search)](https://techdocs.gbif.org/en/openapi/v1/species#/Searching%20names/searchNames) to fetch GBIF unique keys (IDs)
 
 **USAGE**
 
@@ -52,8 +52,8 @@ This block will update the list of species with the valid GBIF keys of species:
 ***MANDATORY***
 
 This block can be run through [DOPA (Digital Observatory on Protected Areas) REST API services](https://dopa-services.jrc.ec.europa.eu/services/) as IUCN API v4 is currently (14/08/2025) under development.
-	- Fetching multiple attributes of species (habitats, threats, stresses, countries, protection categories etc.)
-	- Concatenation for unique values by IUCN IDs.
+- Fetching multiple attributes of species (habitats, threats, stresses, countries, protection categories etc.)
+- Concatenation for unique values by IUCN IDs.
 
 **USAGE**
 
@@ -64,9 +64,9 @@ This block can be run through [DOPA (Digital Observatory on Protected Areas) RES
 ***MANDATORY***
 
 Currently completed [mapping by scientific names from GBIF and IUCN](gbif_iucn_scientificName_Mapper.py). 
-It can be also accessed through GUI on [Checklistbank portal](https://www.checklistbank.org/tools/name-match-async), but automatic access to this tool is not straightforward and reliable. Complete mapping between unique IDs can be accessed as a static [TSV file](https://download.checklistbank.org/job/f8/f8794f58-1a9c-4db2-b7ff-36a2559e75e9.zip), but it is not a robust solution as well.
+It can be also accessed through GUI on [Checklistbank portal](https://www.checklistbank.org/tools/name-match-async), but automatic access to this tool is not straightforward and reliable. Complete mapping between unique IDs can be accessed as a static [TSV file](https://download.checklistbank.org/job/f8/f8794f58-1a9c-4db2-b7ff-36a2559e75e9.zip).
 
-More flexible solution with mapping by IDs should be developed to avoid keeping the mapping database in memory.
+More flexible solution with mapping by IDs can be developed to avoid keeping the mapping database in memory.
 
 **USAGE**
 
@@ -96,20 +96,20 @@ Species enriched with GBIF and IUCN data can be also enriched with [ancillary da
 
 ```bash
 python3 ancillary_ss.py \
-**path**=input/species_list.csv \
-**name**="scientificName" \
-**output**/ancillary_enriched_datacube.csv \
-**-regional_redlist** \
-    **path**=input/red_lists/regional_redlist_api.csv \
-    **columns**=esp_cies_nom_cient_fic \
-    **name**=esp_cies_nom_cient_fic \
-    **protection_category**=categoria_cat_leg \
-**-national_redlist** \
-    **path**=input/red_lists/national_redlist.xlsx \
-    **columns**="Nombre científico actualizado" \
-    **name**="Nombre científico actualizado" \
-    **protection_category**="Listado de Especies Silvestres en Régimen de Protección Especial (LESRPE)/Categorías en el Catálogo Español de Especies Amenazadas (CEEA)" \
-**-log_level** DEBUG
+path=input/species_list.csv \
+name="scientificName" \
+output/ancillary_enriched_datacube.csv \
+-regional_redlist \
+    path=input/red_lists/regional_redlist_api.csv \
+    columns=esp_cies_nom_cient_fic \
+    name=esp_cies_nom_cient_fic \
+    protection_category=categoria_cat_leg \
+-national_redlist \
+    path=input/red_lists/national_redlist.xlsx \
+    columns="Nombre científico actualizado" \
+    name="Nombre científico actualizado" \
+    protection_category="Listado de Especies Silvestres en Régimen de Protección Especial (LESRPE)/Categorías en el Catálogo Español de Especies Amenazadas (CEEA)" \
+-log_level DEBUG
 ```
 
 #### Parameter breakdown
@@ -135,7 +135,7 @@ python3 ancillary_ss.py \
 
 5. **Enrichment with GBIF datacubes**
 
-***(OPTIONAL)***
+***OPTIONAL***
 
 Considering all the data fetched from previous steps, using their knowledge and experience, user should be able to filter out species which are not suitable for their analysis for some reason (for example, user would like to compute habitat connectivity for the shrubland forests, while some species do not prefer them).
 
