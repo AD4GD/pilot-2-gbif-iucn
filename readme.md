@@ -33,7 +33,7 @@ The workflow is being implemented in a few steps. See the detailed description u
 
 For Python scripts, the main parameters of input and output datasets are listed in the [configuration file](config/config.yaml).
 
-![diagram](visualisation/workflow.png)
+![diagram](visualisation/workflow.png?raw=true)
 
 ### **1. [GBIF-enrichment](gbif_lookup.py)**
 
